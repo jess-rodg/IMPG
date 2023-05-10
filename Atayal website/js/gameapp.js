@@ -79,7 +79,7 @@ class GameApp {
         
         const exitButton = dom.getElementById('exit-button');
         exitButton.addEventListener('click', () => {
-            window.location.replace('game.html');
+            window.location.replace('ranking.html');
         });
         
         return dom;

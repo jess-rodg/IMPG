@@ -64,7 +64,7 @@ class IngredientSelectorDisplay {
         this.submitButton.src = 'images/confirm.png';
         this.submitButton.addEventListener('click', () => {
             if(this.checkedIngredients > 5) {
-                alert('You\'re using too many ingredients! Select up to 5.');
+                alert('You\'re using too many objects! Select up to 5.');
             }
             else {
                 this.onSubmit(this.roundScore);
