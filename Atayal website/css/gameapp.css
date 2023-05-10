@@ -1,0 +1,157 @@
+body {
+    font-weight: 500; 
+    text-align: center;
+    margin: 0px;
+    background-image: url("back3.png");
+}
+.content{
+    background-color:antiquewhite;
+    margin: 3%;
+}
+
+#root {
+    width: 1800px;
+    height: 1000px;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: 1800px, 900px;
+    border: 5px solid black;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 5%;
+}
+
+#title {
+    align-content: center;
+    width: 100%;
+}
+
+
+#exit-button {
+    float: right;
+    width: 50px;
+    height: 50px;
+    transform: translate(-10px, -40px);
+    opacity: 0.5;
+}
+
+#exit-button:hover {
+    opacity: 1;
+}
+
+#player-score-judge {
+    display: flex;
+    justify-content: space-around;
+    width: 120%;
+    margin-top: -50px;
+}
+
+h1.main-title {
+    font-size: 3em;
+    margin: 0px;
+}
+
+.style-player {
+    height: 500px;
+    width: 300px;
+    z-index: 1;
+}
+
+
+.style-table {
+    width: 1800px;
+    height: 300px;
+    z-index: 2;
+}
+
+.player-name {
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 700;
+    font-size: 3em;
+    color: rgb(234, 154, 122);
+    line-height: 1em;
+    text-shadow: 5px 5px 0px #000;
+    text-transform: uppercase;
+    z-index: 10;
+    margin-top: 20px;
+    margin-bottom: -20px;
+
+}
+
+.style-score {
+    font-size: 3em;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 900;
+    color: rgb(234, 154, 122);
+    text-shadow: 3px 3px 0px rgb(0, 0, 0);
+    text-align: center;
+    margin-bottom: -25px;
+}
+
+#round-display {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#ingredient-selector {
+    margin-top: -580px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#recipe-name {
+    background-color: rgba(0, 0, 0, .6);
+    text-align: center;
+    padding: 10px 20px;
+    border-radius: 20px;
+    max-width: 400px;
+    font-weight: 500;
+    font-size: 3em;
+    color: #fff;
+    line-height: 1em;
+    text-shadow: 3px 3px 0px #000;
+    z-index: 4;
+    margin-bottom: -30px;
+}
+
+#ingredient { 
+    width: 1000px;
+    left: 50px;
+    top: 500px;
+    z-index: 5;
+
+}
+
+#style-roundbutton {
+    margin-bottom: -50px;
+    width: 350px;
+    cursor: pointer;
+    left: 330px;
+    top: 290px;
+    z-index: 4;
+}
+
+.individual-ingredient {
+    width: 150px;
+    margin: 0px 10px;
+    cursor: pointer;
+}
+
+.selected-ingredient {
+    border: 3px solid white;
+    border-radius: 75px;
+    box-sizing: border-box;
+    overflow: visible;
+}
+
+#transition-message-container {
+    position: fixed;
+    z-index: 11;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

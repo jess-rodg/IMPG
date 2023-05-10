@@ -9,6 +9,13 @@ body {
 .main{
   background-color:antiquewhite;
   border:10px solid black;
+  margin: 0 auto;
+}
+.dynamic-main{
+  height:850px;
+  width:1800px;
+  display: flex;
+  flex-direction: row;
 }
 a {
   text-decoration: none;
@@ -18,9 +25,6 @@ a:hover {
   color: #af2d2f;
 }
 
-.main {
-  margin: 0 auto;
-}
 .header {
   background-color: #000;
   line-height: 80px;
@@ -60,11 +64,9 @@ a:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  justify-content: flex-start;
   padding: 0;
-  width: 1280px;
+  width:1800px;
   height:280px;
-  border:3px solid black;
   overflow: hidden;
 
 }
@@ -119,12 +121,14 @@ a:hover {
 }
 #leftArr{
   display: flex;
+  padding-left: 3%;
   align-items: center;
   font-size: 6em;
   font-weight: bolder;
 }
 #rightArr{
   display: flex;
+  padding-right: 3%;
   align-items: center;
   font-size: 6em;
   font-weight: bolder;

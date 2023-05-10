@@ -1,0 +1,35 @@
+body {
+    font-weight: 500; 
+    text-align: center;
+    background-image:url("back3.png");
+}
+.content{
+    padding-top: 4%;
+}
+#main-title{
+    margin-top: 3%;
+}
+.content{
+    margin: 3%;
+    width:1800px;
+    height:900px;
+    background-color:antiquewhite;
+}
+h2 {
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(246, 160, 103);
+    -webkit-text-stroke-color:  rgb(9, 9, 9);
+    font-size: 2.5em;
+    font-weight: 700;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+}
+.credits {
+    font-size: -1;
+    color: rgb(8, 22, 146);
+    font-weight: 500i;
+    text-align: center;
+}
