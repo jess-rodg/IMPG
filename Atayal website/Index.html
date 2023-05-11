@@ -1,60 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Home</title>
-    <link href="css/styles.css" type="text/css" rel="stylesheet">  
-    <link href="css/navbar.css" rel="stylesheet">
-    <!-- Top navigation start -->
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Home</title>
+  <link href="css/index.css" type="text/css" rel="stylesheet">
+  <link href="css/navbar.css" rel="stylesheet">
+</head>
 
-  <body id="Home-body">
-    <div class="content">
-      <header id="Home">
-        <div id="Home-buttons">
+<body>
+  <div class="container">
+    <nav>
+      <div class="navbar">
+        <a href="index.html" id="active">Home</a>
         <a href="food.html">Food</a>
         <a href="clothes.html">Clothes</a>
         <a href="architecture.html">Architecture</a>
         <a href="traditions.html">Traditions</a>
+        <div class="dropdown">
+          <a class="dropbutton">Games
+          </a>
+          <div class="dropdown-content">
+            <a href="kitchen.html">Atayal Kitchen</a>
+            <a href="quiz.html">Knowledge quiz</a>
+          </div>
+        </div>
+        <p class="websiteName">ATAYAL</p>
+      </div>
+    </nav>
+
+    <div class="banner">
+      <img src="Images/banner.png" alt="Image displaying atayla people with face tatoos">
     </div>
-    <!-- End of top navigation -->
 
+<div class="about">
+  <p>As the most widespread ethnic group in Taiwan, the Atayal are distributed in the mountainous areas in central and northern Taiwan. 
+     According to the Atayal legend, the Atayal originated from a rock cracking where their ancestors (a male and a female) were born. 
+     Then, they migrated to the places where different tribes settle.
+     Currently, the Atayal population is about 92,084 people, and this website aims to educate people on the livelihood of the Atayal 
+     people in order to protect their culture. </p>
+</div>
 
+<div class="pageLinks">
+<a href="food.html" id="btn1"><img src="Images/foodBtn.png" ></a>
+<a href="clothes.html" id="btn2"><img src="Images/clothesBtn.png" ></a>
+<a href="architecture.html" id="btn3"><img src="Images/architectureBtn.png" ></a>
+<a href="traditions.html" id="btn4"><img src="Images/traditionsBtn.png"></a>
+</div>
+<div class="culturePresevation">
+  <h1>Importance of preserving indigenous cultures</h1>
+<p>This paragraph will talk about the importance of preserving inigenous cultures</p>
+</div>
 
-    
-    <!-- Video section begins -->
-    <div id="immerse">
-        <video autoplay>
-          <source src="sound.mp4" type="video/mp4">
-        </video>
-        <a id="explore" href="Live.html">Live as an atayal!</a>
-    </div>
-    <!-- End of video section -->
-
-    
-    <!-- Home page introduction start -->
-    <div id="intro">
-        <p id="Home-text">The Tayal are found on both sides of the Central Mountain Range in northern Taiwan, as well as in the mountainous areas of Hualien and Yilan. They are divided into the Tayal and the Sedek. The Tayal are divided into the Sekoleq and Tseole groups. The Sedek subgroup is divided into the Eastern Sedek and Western Sedek groups.</p>
-        <h1 id="Home-title">T<br>A<br>Y<br>A<br>L</h1>
-    </div>
-    <!-- End of Home Introduction -->
-
-
-    <!-- Home click out effect start -->
-      </header> 
-      <main id="Home-main">
-        <img id="one" src="./Home img/Clothes2.png" alt="clothes">
-        <img id="two" src="./Home img/Facial.png" alt="facial">
-        <img id="three" src="./Home img/Rice.png" alt="rice">
-        <img id="four" src="./Home img/Maho.png" alt="maho">
-    </main>
-    <!-- Home click out effect end -->
-    <footer>  
-      REFERENCES
-    </footer>
-</div> 
+<footer>
+  <p>References</p>
+  <a href="https://www.cip.gov.tw/en/tribe/grid-list/A7F31083995F0E60D0636733C6861689/info.html?cumid=D0636733C6861689">Council of Indigenous People</a>
+<p></p>
+</footer>
+  </div>
 </body>
-<script src="Javascript/home.js"></script> 
+
 </html>
