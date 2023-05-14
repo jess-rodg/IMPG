@@ -1,3 +1,3 @@
-document.getElementById("game-button").addEventListener("click", () => {
+document.getElementById("hide2").addEventListener("click", () => {
     location.replace("intro.html");
 })

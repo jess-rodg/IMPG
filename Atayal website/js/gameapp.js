@@ -35,12 +35,12 @@ class GameApp {
         userArrayParse[3] = this.score;
         const dom = appTemplate.content;
         if(this.roundNumber === 1) {
-            document.getElementById('root').style.backgroundImage = 'url(images/back1.png)';
+            document.getElementById('root').style.backgroundImage = 'url(backKit.jpeg)';
         }
         else if(this.roundNumber === 2) {
-            document.getElementById('root').style.backgroundImage = 'url(images/back1.png)';
+            document.getElementById('root').style.backgroundImage = 'url(backKit.jpeg)';
         } else {
-            document.getElementById('root').style.backgroundImage = 'url(images/back1.png)';
+            document.getElementById('root').style.backgroundImage = 'url(backKit.jpeg)';
         }
         
 

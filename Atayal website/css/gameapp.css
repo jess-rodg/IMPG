@@ -2,7 +2,7 @@ body {
     font-weight: 500; 
     text-align: center;
     margin: 0px;
-    background-image: url("back3.png");
+    background-image: url("backDeco.png");
 }
 .content{
     background-color:antiquewhite;
@@ -20,7 +20,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 5%;
+    padding-top: 3%;
 }
 
 #title {
@@ -62,7 +62,7 @@ h1.main-title {
 
 .style-table {
     width: 1800px;
-    height: 300px;
+    height: 340px;
     z-index: 2;
 }
 
@@ -97,7 +97,7 @@ h1.main-title {
 }
 
 #ingredient-selector {
-    margin-top: -580px;
+    margin-top: -680px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -115,7 +115,7 @@ h1.main-title {
     line-height: 1em;
     text-shadow: 3px 3px 0px #000;
     z-index: 4;
-    margin-bottom: -30px;
+    margin-bottom: -20px;
 }
 
 #ingredient { 
@@ -127,7 +127,7 @@ h1.main-title {
 }
 
 #style-roundbutton {
-    margin-bottom: -50px;
+    margin-bottom: -90px;
     width: 350px;
     cursor: pointer;
     left: 330px;
