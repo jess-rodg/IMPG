@@ -1,14 +1,30 @@
 body {
   padding: 0;
-  margin-left: 2%;
-  margin-right: 2%;
+  margin: 3%;
   list-style: none;
   color: #333;
-  background-image: url("back3.png");
+  background-image: url("backDeco.png");
+}
+.body-kitchen{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 16px;
 }
 .main{
   background-color:antiquewhite;
   border:10px solid black;
+}
+.main-kitchen{
+  background-image: url("backKit.jpeg");
+  background-position-y: 120px;
+  width:1820px;
+  height:1200px;
+  background-size: 1800px 1100px;
+}
+.dynamic-main{
+  height:850px;
+  width:1800px;
+  display: flex;
+  flex-direction: row;
 }
 a {
   text-decoration: none;
@@ -18,9 +34,6 @@ a:hover {
   color: #af2d2f;
 }
 
-.main {
-  margin: 0 auto;
-}
 .header {
   background-color: #000;
   line-height: 80px;
@@ -29,6 +42,7 @@ a:hover {
   align-items: center;
   padding: 0 30px;
 }
+
 .logo {
   font-size: 2em;
   color: #fff;
@@ -60,13 +74,10 @@ a:hover {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  justify-content: flex-start;
   padding: 0;
-  width: 1280px;
+  width:1800px;
   height:280px;
-  border:3px solid black;
   overflow: hidden;
-
 }
 
 .listimg ul  li img{
@@ -119,12 +130,14 @@ a:hover {
 }
 #leftArr{
   display: flex;
+  padding-left: 3%;
   align-items: center;
   font-size: 6em;
   font-weight: bolder;
 }
 #rightArr{
   display: flex;
+  padding-right: 3%;
   align-items: center;
   font-size: 6em;
   font-weight: bolder;
@@ -156,4 +169,10 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+#hide2{
+color: #af2d2f;
+}
+.objects{
+  display: flex;
 }
