@@ -5,72 +5,62 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>clothes</title>
-  <link href="css/css.css" type="text/css" rel="stylesheet">
+  <script src="js/jquery-3.6.3.js"></script>
+  <script src="js/clothes.js"></script>
+  <link href="css/static.css" type="text/css" rel="stylesheet">
   <link href="css/navbar.css" rel="stylesheet">
 </head>
 
 <body>
-  <div class="main">
-    <div class="header">
-      <div class="logo">
-        TAYAL CULTURE
-      </div>
-      <div class="nav">
-        <ul>
-          <li><a href="Index.html">HOME</a></li>
-          <li><a href="food.html">FOOD</a></li>
-          <li><a class="cur" href="clothes.html">CLOTHES</a></li>
-          <li><a href="architecture.html">ARCHITECTURE</a></li>
-          <li><a href="traditions.html">TRADITIONS</a></li>
-        </ul>
-      </div>
-    </div>
-    <div class="container">
-      <div class="listimg">
-        <div id="leftArr" onclick="plusDivs(-1)">&lAarr;</div>
-        <ul>
-          <li class="changeImg">
-            <img id="clo1" src="./Static img/Cloth page/Face tattoo.jpg" alt="">
-          </li>
-          <li class="changeImg">
-            <img id="clo2" src="./Static img/Cloth page/Historical Atayal Male Costume.jpg" alt="">
-          </li>
-          <li class="changeImg">
-            <img id="clo3" src="./Static img/Cloth page/History Atayal Female Costume .jpg" alt="">
-          </li>
-          <li class="changeImg">
-            <img id="clo4" src="./Static img/Cloth page/Atayal Shell Bead Shirt As Wedding Gift.jpg" alt="">
-          </li>
-          <li class="changeImg">
-            <img id="clo5" src="./Static img/Cloth page/Atayal clothing.jpg" alt="">
-          </li>
-          <li class="changeImg">
-            <img id="clo6" src="./Static img/Cloth page/Atayal weaving.jpg" alt="">
-          </li>
-          <li class="changeImg">
-            <img id="clo7" src="./Static img/Cloth page/Backstrap loom.jpg" alt="">
-          </li>
-          <li class="changeImg">
-            <img id="clo8" src="./Static img/Cloth page/Male Sleeveless Short Garment.jpg" alt="">
-          </li>
-        </ul>
-        <div id="rightArr" onclick="plusDivs(1)">&rAarr;</div>
-      </div>
-      <div class="layout">
-         <div class="left">
-          <div id="display2"><img src="./Static img/Cloth page/Face tattoo.jpg" alt="">
+  <div class="container">
+    <nav>
+      <div class="navbar">
+        <a href="index.html" >Home</a>
+        <a href="food.html">Food</a>
+        <a href="clothes.html" id="active">Clothes</a>
+        <a href="architecture.html">Architecture</a>
+        <a href="traditions.html">Traditions</a>
+        <div class="dropdown">
+          <a class="dropbutton">Games
+          </a>
+          <div class="dropdown-content">
+            <a href="kitchen.html">Atayal Kitchen</a>
+            <a href="quiz.html">Knowledge quiz</a>
           </div>
-          <h3>BUILDING</h3>
-         </div>
-         <div class="right">
-         <p id="tradition-intro1"> INTRODUCTION</p>
-         </div>
+        </div>
+        <p class="websiteName">ATAYAL</p>
       </div>
+    </nav>
+
+    <div class="heading">
+      <h1>Clothes</h1>
+  </div>
+
+    <div class="images">
+      <img id="image1" src="Images/Square/groupSQ.png" alt="atayal group in traditional clothing">
+      <img id="image2" src="Images/Square/femaleSQ.png" alt="atayal women in traditional clothing">
+      <img id="image3" src="Images/Square/maleSQ.png" alt="atayal man in traditional clothing">
+      <img id="image4" src="Images/Square/weavingSQ.png" alt="atayal weaving">
+      <img id="image5" src="Images/Square/tattoosSQ.png" alt="atayal facial tattoos">
     </div>
-    <div class="footer">
-      REFERENCES
-    </div>
+
+    <div id="imagePlaceholder"></div>
+
+    <div class="text">
+
+    <div id="headingPlaceholder"></div>
+
+    <div id="textPlaceholder"></div>
+
+  </div>
+
+    <footer>
+      <p>References</p>
+      <a href="https://www.cip.gov.tw/en/tribe/grid-list/A7F31083995F0E60D0636733C6861689/info.html?cumid=D0636733C6861689">Council of Indigenous People</a>
+    <p></p>
+    </footer>
+
   </div>
 </body>
-<script src="Javascript/clothes.js"></script> 
+
 </html>

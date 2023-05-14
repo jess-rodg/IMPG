@@ -1,0 +1,252 @@
+{
+    "questions": [
+        {
+            "number": 1,
+            "text": "What is the most common colour used in Atayal clothing?",
+            "answers": [
+                {
+                    "text": "Pink",
+                    "correct": false
+                },
+                {
+                    "text": "Green",
+                    "correct": false
+                },
+                {
+                    "text": "Red",
+                    "correct": true
+                }
+            ],
+            "incorrectSentence": "Red is the most common colour seen within Atayal clothing"
+        },
+        {
+            "number": 2,
+            "text": "What is the main material used in Atayal clothing?",
+            "answers": [
+                {
+                    "text": "Cotton",
+                    "correct": false
+                },
+                {
+                    "text": "Wool",
+                    "correct": false
+                },
+                {
+                    "text": "Hemp",
+                    "correct": true
+                }
+            ],
+            "incorrectSentence": "Although cotton and wool have been used for Atayal clothing since the 20th century, the most common material used is hemp"
+        },
+        {
+            "number": 3,
+            "text": "What craft determines a women's social status within Atayal culture?",
+            "answers": [
+                {
+                    "text": "Crotchetting",
+                    "correct": false
+                },
+                {
+                    "text": "Sewing",
+                    "correct": false
+                },
+                {
+                    "text": "Weaving",
+                    "correct": true
+                }
+            ],
+            "incorrectSentence": "Weaving is very important within Atayal culture, and determines a woman's social status and competence"
+        },
+        {
+            "number": 4,
+            "text": "What do diamond shapes represent on Atayal clothing?",
+            "answers": [
+                {
+                    "text": "Good weaving skills",
+                    "correct": false
+                },
+                {
+                    "text": "Good luck when hunting",
+                    "correct": false
+                },
+                {
+                    "text": "Protection given by ancestors",
+                    "correct": true
+                }
+            ],
+            "incorrectSentence": "Legend says that diamonds are eyes, and represent protection given by ancesters"
+        },
+        {
+            "number": 5,
+            "text": "What are the two main spices used for Atayal dishes?",
+            "answers": [
+                {
+                    "text": "Tana and maqaw",
+                    "correct": true
+                },
+                {
+                    "text": "Tana and cloves",
+                    "correct": false
+                },
+                {
+                    "text": "Star anise and cloves",
+                    "correct": false
+                }
+            ],
+            "incorrectSentence": "Tana and Maqaw are the most used spices in Atayal cooking"
+        },
+        {
+            "number": 6,
+            "text": "What is the Atayal cooking method where rice is cooked in bamboo tubes called?",
+            "answers": [
+                {
+                    "text": "Zhen",
+                    "correct": false
+                },
+                {
+                    "text": "Zhu Zhu",
+                    "correct": true
+                },
+                {
+                    "text": "Grilling",
+                    "correct": false
+                }
+            ],
+            "incorrectSentence": "The cooking method is known as Zhu Zhu"
+        },
+        {
+            "number": 7,
+            "text": "Which crops did Atayal people started growing in the mid-20th century?",
+            "answers": [
+                {
+                    "text": "Millet, wheat, apple, mushrooms",
+                    "correct": false
+                },
+                {
+                    "text": "Mushrooms, millet, peaches, ginger",
+                    "correct": false
+                },
+                {
+                    "text": "Ginger, peaches, apples, pears",
+                    "correct": true
+                }
+            ],
+            "incorrectSentence": "Ginger, peaches, apples and pears were the crops that Atayal people began growing in the mid 20th-century in order to increase profits"
+        },
+        {
+            "number": 8,
+            "text": "Which of the following that is prohibited to eat for Atayal people?",
+            "answers": [
+                {
+                    "text": "Bears",
+                    "correct": true
+                },
+                {
+                    "text": "Chicken",
+                    "correct": false
+                },
+                {
+                    "text": "Pork",
+                    "correct": true
+                }
+            ],
+            "incorrectSentence": "Atayal people cannot eat bear"
+        },
+        {
+            "number": 9,
+            "text": "How long does meat last when preserved by using the tmmyan method?",
+            "answers": [
+                {
+                    "text": "4 months",
+                    "correct": false
+                },
+                {
+                    "text": "6 months",
+                    "correct": true
+                },
+                {
+                    "text": "1 year",
+                    "correct": false
+                }
+            ],
+            "incorrectSentence": "Meat will last around 6 months when preserved using the tmmyan method"
+        },
+        {
+            "number": 10,
+            "text": "What is wedding gift do Atayal males traditionally give to their bride?",
+            "answers": [
+                {
+                    "text": "Headband ",
+                    "correct": false
+                },
+                {
+                    "text": "Shell bead skirt",
+                    "correct": false
+                },
+                {
+                    "text": "Shell bead shirt",
+                    "correct": true
+                }
+            ],
+            "incorrectSentence": "The shell bead shirt is the traditional wedding gift from a groom to the bride in Atayal culture"
+        },
+        {
+            "number": 11,
+            "text": "Which of the following is not part of a male Atayal outfit?",
+            "answers": [
+                {
+                    "text": "A sheath belt ",
+                    "correct": false
+                },
+                {
+                    "text": "Sleeveless woven shirt",
+                    "correct": false
+                },
+                {
+                    "text": "Long-sleeved short jacket",
+                    "correct": true
+                }
+            ],
+            "incorrectSentence": "Atayal males do not wear a long-sleeved short jacket as part of their outfit"
+        },
+        {
+            "number": 12,
+            "text": "How do female Atayals earn their face tattoos?",
+            "answers": [
+                {
+                    "text": "Weaving",
+                    "correct": true
+                },
+                {
+                    "text": "Housework",
+                    "correct": false
+                },
+                {
+                    "text": "Hunting",
+                    "correct": false
+                }
+            ],
+            "incorrectSentence": "Atayal females earn their facial tattoos when they display that they are skilled weavers"
+        },
+        {
+            "number": 13,
+            "text": "Which material is not used in the construction of atayal homes and buildings?",
+            "answers": [
+                {
+                    "text": "Bamboo",
+                    "correct": false
+                },
+                {
+                    "text": "Straw",
+                    "correct": true
+                },
+                {
+                    "text": "Wood",
+                    "correct": false
+                }
+            ],
+            "incorrectSentence": "Straw isn't used in the construction of atayal buildings"
+        }
+        
+    ]
+}

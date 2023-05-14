@@ -5,60 +5,59 @@
   <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>food</title>
-    <link href="css/css.css" type="text/css" rel="stylesheet">
+    <script src="js/jquery-3.6.3.js"></script>
+    <script src="js/food.js"></script>
+    <link href="css/static.css" type="text/css" rel="stylesheet">
     <link href="css/navbar.css" rel="stylesheet">
 </head>
 
 <body>
-  <div class="main">
-    <div class="header">
-      <div class="logo">
-        TAYAL CULTURE
-      </div>
-      
-      <div class="nav">
-        <ul>
-          <li><a href="Index.html">HOME</a></li>
-          <li><a  class="cur"  href="food.html">FOOD</a></li>
-          <li><a href="clothes.html">CLOTHES</a></li>
-          <li><a href="architecture.html">ARCHITECTURE</a></li>
-          <li><a href="traditions.html">TRADITIONS</a></li>
-        </ul>
-      </div>
-      
-    </div>
-    <div class="container">
-      <div class="listimg">
-        <ul>
-          <li>
-            <img id="f1" src="./Static img/Food/tmmyan.jpg" alt="food1">
-          </li>
-          <li>
-            <img id="f2" src="./Static img/Food/Banana sticky rice.jpg" alt="food2">
-          </li>
-          <li>
-            <img id="f3" src="./Static img/Food/Spices.jpg" alt="">
-          </li>
-          <li>
-            <img id="f4" src="./Static img/Food/Tmmyan Meat.jpg" alt="">
-          </li>
-        </ul>
-      </div>
-      <div class="layout">
-         <div class="left">
-          <div id="display1"><img src="./Static img/Food/tmmyan.jpg" alt="food1">
+  <div class="container">
+    <nav>
+      <div class="navbar">
+        <a href="index.html" >Home</a>
+        <a href="food.html" id="active">Food</a>
+        <a href="clothes.html">Clothes</a>
+        <a href="architecture.html">Architecture</a>
+        <a href="traditions.html">Traditions</a>
+        <div class="dropdown">
+          <a class="dropbutton">Games
+          </a>
+          <div class="dropdown-content">
+            <a href="kitchen.html">Atayal Kitchen</a>
+            <a href="quiz.html">Knowledge quiz</a>
           </div>
-          <h3>BUILDING</h3>
-         </div>
-         <div class="right">
-         <p id="tradition-intro1"> INTRODUCTION</p>
-         </div>
+        </div>
+        <p class="websiteName">ATAYAL</p>
       </div>
+    </nav>
+
+    <div class="heading">
+      <h1>Food</h1>
+  </div>
+
+    <div class="images">
+      <img id="image1" src="Images/Square/milletSQ.png" alt="foxtail millet crop">
+      <img id="image2" src="Images/Square/MaqawSQ.png" alt="atayal spices maqaw">
+      <img id="image3" src="Images/Square/harvestSQ.png" alt="atayal man harvesting millet">
+      <img id="image4" src="Images/Square/zhuzhuSQ.png" alt="atayal cooking method called zhu zhu">
+      <img id="image5" src="Images/Square/tmmyanSQ.png" alt="atayal meat preservation method called tmmyan">
     </div>
-    <div class="footer">
-      REFERENCES
-    </div>
+
+    <div id="imagePlaceholder"></div>
+<div class="text">
+    <div id="headingPlaceholder"></div>
+
+    <div id="textPlaceholder"></div>
+  </div>
+    <footer>
+      <p>References</p>
+      <a href="https://www.cip.gov.tw/en/tribe/grid-list/A7F31083995F0E60D0636733C6861689/info.html?cumid=D0636733C6861689">Council of Indigenous People</a>
+    <p></p>
+    </footer>
+
+
   </div>
 </body>
-<script src="Javascript/food.js"></script> 
+
 </html>
