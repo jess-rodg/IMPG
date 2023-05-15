@@ -87,7 +87,9 @@ input[type="submit"]:active {
     top: 2px;
 }
 h2 {
-    color:rgb(246, 160, 103); 
+    color:rgb(246, 160, 103);
+    -webkit-text-stroke-color: rgb(0, 0, 0);  
+
 }
 
 #photos-spacer {

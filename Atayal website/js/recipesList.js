@@ -1,89 +1,86 @@
 /* exported allRecipes, allIngredients */
 'use strict';
 
-
-// Ingredient Construction
-
-class one {
+class beans {
     constructor(pointValue) {
-        this.image = 'one.png';
+        this.image = 'beans.png';
         this.pointValue = pointValue;
     }
 }
 
-class two {
+class carrot {
     constructor(pointValue) {
-        this.image = 'two.png';
+        this.image = 'carrot.png';
         this.pointValue = pointValue;
     }
 }
 
-class three {
+class corn {
     constructor(pointValue) {
-        this.image = 'three.png';
+        this.image = 'corn.png';
         this.pointValue = pointValue;
     }
 }
 
-class four {
+class Mushroom {
     constructor(pointValue) {
-        this.image = 'four.png';
+        this.image = 'Mushroom.png';
         this.pointValue = pointValue;
     }
 }
 
-class five {
+class fish {
     constructor(pointValue) {
-        this.image = 'five.png';
+        this.image = 'fish.png';
         this.pointValue = pointValue;
     }
 }
 
-class six {
+class pork {
     constructor(pointValue) {
-        this.image = 'six.png';
+        this.image = 'pork.png';
         this.pointValue = pointValue;
     }
 }
 
-class seven {
+class rice {
     constructor(pointValue) {
-        this.image = 'seven.png';
+        this.image = 'rice.png';
         this.pointValue = pointValue;
     }
 }
 
-class eight {
+class salt {
     constructor(pointValue) {
-        this.image = 'eight.png';
+        this.image = 'salt.png';
         this.pointValue = pointValue;
     }
 }
 
-class nine {
+class banana {
     constructor(pointValue) {
-        this.image = 'nine.png';
+        this.image = 'banana.png';
         this.pointValue = pointValue;
     }
 }
 
-class ten {
+class jar {
     constructor(pointValue) {
-        this.image = 'ten.png';
+        this.image = 'jar.png';
         this.pointValue = pointValue;
     }
 }
 
-class eleven {
+class zishu {
     constructor(pointValue) {
-        this.image = 'eleven.png';
+        this.image = 'zishu.png';
         this.pointValue = pointValue;
     }
 }
 
-class twelve {
+class leave {
     constructor(pointValue) {
-        this.image = 'twelve.png';
+        this.image = 'leave.png';
         this.pointValue = pointValue;
     }
 }
@@ -96,136 +93,110 @@ class Recipe {
     }
 }
 
-
 const allIngredients = [
-    new one(0),
-    new two(0),
-    new three(0),
-    new four(0),
-    new five(0),
-    new six(0),
-    new seven(0),
-    new eight(0),
-    new nine(0),
-    new ten(0),
-    new eleven(0),
-    new twelve(0),
+    new beans(0),
+    new carrot(0),
+    new corn(0),
+    new Mushroom(0),
+    new fish(0),
+    new pork(0),
+    new rice(0),
+    new salt(0),
+    new banana(0),
+    new jar(0),
+    new zishu(0),
+    new leave(0),
 ];
 
 
-
-
-// BREAKFAST RECIPES
-
-const Fone = new Recipe('Fone',
+const bbrice = new Recipe('Bamboo Rice',
     [
-        new one(50),
-        new two(30),
-        new six(30),
-        new three(20),
-       
+        new beans(30),
+        new carrot(30),
+        new rice(10),
+        new corn(30), 
+        new salt(10)  
     ]);
         
-const Ftwo = new Recipe('Ftwo',
+const barice = new Recipe('Banana Rice',
     [
-        new one(30),
-        new ten(30),
-        new four(30),
-        new five(30),
-        new three(30)
+        new rice(10),
+        new banana(10),
+        new zishu(60),
+        new leave(40)
     ]);
 
-const Fthree = new Recipe('Fthree',
+const tmmyan = new Recipe('Tmmyan',
     [
-        new one(50),
-        new two(40),
-        new five(30),
-        new twelve(20),
-        new eight(10)
-    ]);
-
-const Ffour = new Recipe('Ffour',
-    [
-        new one(40),
-        new eight(40),
-        new four(20)
+        new pork(40),
+        new fish(30),
+        new salt(30),
+        new jar(20)
     ]);
 
 const Ffive = new Recipe('Ffive',
-    [
-        new nine(50),
-        new eight(30),
-        new eleven(30),
-        new three(20)
+    [     
+        
+        new corn(20)
     ]);
 
-const food = [Fone, Ftwo, Fthree, Ffour, Ffive];
+const food = [bbrice, barice, tmmyan, Ffive];
 
 
 const Lone = new Recipe('Lone',
     [
-        new six(20)
+        new jar(20)
     ]);
     
 const Ltwo = new Recipe('Ltwo',
     [
-        new seven(30),
-        new three(30),
-        new one(30)
+        new jar(30),
+        new beans(30)
     ]);
 
 const Lthree = new Recipe('Lthree',
     [
-        new seven(20)
+        new jar(20)
     ]);
 
 const Lfour = new Recipe('Lfour',
     [
-        new five(40),
-        new seven(20)
+        new jar(40),
+        new jar(20)
     ]);
     
 const Lfive = new Recipe('Lfive',
     [
-        new six(40),
-        new ten(30),
-        new seven(20),
-        new three(10)
+        new jar(40),
+        new corn(10)
     ]);
     
 const living = [Lone, Ltwo, Lthree, Lfour, Lfive];
 
 const Hone = new Recipe('Hone',
     [      
-        new five(40),
-        new seven(20),
-        new six(10)
+        new jar(40),
+        new fish(10)
     ]);
 
 const Htwo = new Recipe('Htwo',
     [ 
-        new five(20),
-        new three(10)
+        new fish(20)
     ]);
 const Hthree = new Recipe('Hthree',
     [   
-        new five(30),
-        new six(30),
-        new seven(20)
+        new fish(20)
     ]);
     
 const Hfour = new Recipe('Hfour',
     [
-        new eight(30),
-        new nine(20),
-        new eleven(20)
+        new fish(20)
+       
     ]);
 
 const Hfive = new Recipe('Hfive',
     [  
-        new ten(40),
-        new seven(30),
-        new six(20)
+        new fish(20)
     ]);
 
 
