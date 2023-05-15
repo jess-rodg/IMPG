@@ -109,7 +109,7 @@ const allIngredients = [
 ];
 
 
-const bbrice = new Recipe('Bamboo Rice',
+const bbrice = new Recipe('Zhu Zhu',
     [
         new beans(30),
         new carrot(30),
