@@ -21,15 +21,18 @@ $(document).ready(function () {
     $("#answerButton1").on("click", function () {
 
         optionClicked(0)
+        $("#answerButton1").css({"border-style": "solid", "border-width": "thick"})
     });
 
     $("#answerButton2").on("click", function () {
 
         optionClicked(1)
+        $("#answerButton2").css({"border-style": "solid", "border-width": "thick"})
     });
 
     $("#answerButton3").on("click", function () {
         optionClicked(2)
+        $("#answerButton3").css({"border-style": "solid", "border-width": "thick"})
     });
 
 
@@ -42,11 +45,15 @@ $(document).ready(function () {
 
         if (question.answers[option].correct === true) {
             $("#resultPlaceholder").html("<h2>Correct!</h2>");
+            $("#resultPlaceholder").css("color", "green")
             correctTally = correctTally + 1;
         } else {
             $("#resultPlaceholder").html("<h2>Incorrect!</h2>");
+            $("#resultPlaceholder").css("color", "red")
             $("#incorrectSentencePlaceholder").html("<p>" + JSON.stringify(question.incorrectSentence) + "</p>");
         }
+        $(question.answers[option].correct).css("background-color", "green");
+        $(question.answers[option].incorrect).css("background-color", "red");
         $("#resultPlaceholder").show();
         $("#incorrectSentencePlaceholder").show();
     }
@@ -73,12 +80,15 @@ $(document).ready(function () {
         $("#nextQuestionButton").hide();
         $("#resultPlaceholder").hide();
         $("#incorrectSentencePlaceholder").hide();
+        $("#answerButton1").css("border-style", "none")
+        $("#answerButton2").css("border-style", "none")
+        $("#answerButton3").css("border-style", "none")
         if (questions.questions.length > 0) {
             getQuestion();
         } else {
             $("#endQuiz").show();
             $("#score").show();
-            $("#score").html("<p> You scored" + correctTally + "/" + totalQuestions + ", well done!</p>");
+            $("#score").html("<p> You scored " + correctTally + "/" + totalQuestions + ", well done!</p>");
             $("#questionPlaceholder").hide();
             $("#answerButton1").hide();
             $("#answerButton2").hide();
