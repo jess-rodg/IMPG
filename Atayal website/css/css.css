@@ -170,9 +170,64 @@ a:hover {
   justify-content: center;
   align-items: center;
 }
-#hide2{
-color: #af2d2f;
-}
+
 .objects{
   display: flex;
+}
+
+#bbrice{
+  display:block;
+  width:100px;
+  height:100px;
+  position:relative;
+  left:1200px;
+  top:460px;
+}
+#hide{
+  height:30px;
+  position:relative;
+  left:900px;
+  top:490px;
+  color: antiquewhite;
+  text-shadow: 1px 1px 0px #000;
+  border-radius: 25px;
+  line-height: 1em;
+  z-index: 10;
+  margin-top: 80px;
+  height: 30px;
+}
+#hide2{
+  color: black;
+  height:30px;
+  position:relative;
+  border-radius: 25px;
+  left:1080px;
+  top:730px;
+}
+#tmmyan{
+  display:block;
+  width:100px;
+  height:100px;
+  position:relative;
+  left:1400px;
+  top:377px;
+}
+#hide4{
+  color: black;
+  height:30px;
+  position:relative;
+  left:1380px;
+  top:340px;
+  color: antiquewhite;
+  text-shadow: 1px 1px 0px #000;
+}
+#hide3{
+  height:30px;
+  position:relative;
+  left:1400px;
+  top:670px;
+  border-radius: 25px;
+  line-height: 1em;
+  z-index: 10;
+  height: 30px;
 }
