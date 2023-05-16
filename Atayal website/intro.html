@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/intro.css">
+    <title>Game Intro</title>
+</head>
+<body>
+    <div class="content">
+        <div class="header">
+            <div class="logo">
+              TAYAL CULTURE
+            </div>
+            <div class="nav">
+              <ul>
+                <li><a href="Index.html">HOME</a></li>
+                <li><a href="kitchen.html">KITCHEN</a></li>
+                <li><a href="living.html">LIVING ROOM</a></li>
+                <li><a href="hunter.html">HUNTER'S WORKSHOP</a></li>
+              </ul>
+            </div>
+          </div>
+          <h1 class = "main-title">Make some tradition stuff!</h1>
+          <div id="instructions">
+            <h2>Instructions:</h2>
+            <p>First stage: Make traditional food by yourself!</p>
+            <p>Second stage: Make a Tayal instrument!</p>
+            <p>Third stage: Let's hunt!</p> 
+            <h2>Please Enter Your Name:</h2>
+            <div id="flex-grid">
+                <div id="row">
+                    <form id ="player-name">
+                    <input type="text" name="username" maxlength="8" required>
+                    <input type="submit" value="Start Game!">
+                </form>
+            </div>
+        </div>
+    </div>
+    <form id="char-select">
+        <h2>Click to Choose Your Character:</h2>
+        <div id = "photos-spacer">
+        <input type="image" src="images/one.png" name="user-char-male" class="user-char-male" id="male"/>
+        <input type="image" src="images/one.png" name="user-char-female" class="user-char-female" id="female"/>
+    </div>
+</form>
+<div class="footer">
+  REFERENCES
+</div>
+<script src = "js/intro.js"></script>
+</div>
+</body>
+</html>

@@ -1,34 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
-
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Kitchen game</title>
+  <title>kitchen</title>
+  <link href="css/css.css" type="text/css" rel="stylesheet">
   <link href="css/navbar.css" rel="stylesheet">
-</head>
+  </head>
 
-<body>
-    <div class="container">
-    <nav>
-        <div class="navbar">
-            <a href="index.html">Home</a>
-            <a href="food.html">Food</a>
-            <a href="clothes.html">Clothes</a>
-            <a href="architecture.html">Architecture</a>
-            <a href="traditions.html">Traditions</a>
-            <div class="dropdown">
-                <a class="dropbutton">Games
-                </a>
-                <div class="dropdown-content">
-                  <a href="kitchen.html" id="active">Atayal Kitchen</a>
-                  <a href="quiz.html">Knowledge quiz</a>
-                </div>
-              </div>
-              <p class="websiteName">ATAYAL</p>
-          </div>
-    </nav>
-</div>
+
+<body class="body-kitchen">
+  <div class="main-kitchen">
+    <div class="header">
+      <div class="logo">
+        TAYAL CULTURE
+      </div>
+      <div class="nav">
+        <ul>
+          <li><a href="Index.html">HOME</a></li>
+          <li><a  class="cur" href="kitchen.html">KITCHEN</a></li>
+          <li><a href="living.html">LIVING ROOM</a></li>
+          <li><a href="hunter.html">HUNTER'S WORKSHOP</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="objects">
+    <div class="w3-container">
+      <p class="w3-tooltip"> <img class="test" src="./Dynamic img/test.png" alt="test">
+        <span class="w3-text w3-tag w3-animate-opacity">This is an introduction</span> </p>
+    </div>
+    <div class="w3-container">
+      <p class="w3-tooltip"> <img class="test2" src="./Dynamic img/test.png" alt="test2">
+        <button type="button" id="hide2" class="w3-text w3-tag w3-animate-opacity">Make some tradional stuff!</button></p>
+    </div>
+    </div>
+  </div>
+  <div class="footer">
+    REFERENCES
+  </div>
+
 </body>
-
+<script src="kitchen.js"></script> 
 </html>
+
