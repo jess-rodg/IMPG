@@ -38,7 +38,8 @@ class GameApp {
             document.getElementById('root').style.backgroundImage = 'url(backKit.jpeg)';
         }
         else if(this.roundNumber === 2) {
-            document.getElementById('root').style.backgroundImage = 'url(backKit.jpeg)';
+            document.getElementById('root').style.backgroundImage = 'url(backLiv.png)';
+            
         } else {
             document.getElementById('root').style.backgroundImage = 'url(backKit.jpeg)';
         }
