@@ -82,3 +82,12 @@
 .navbar #active {
   background-color:#934D3C;
 }
+
+/* Links inside the dropdown */
+#dropdown-content2 a {
+ 
+  padding-right: 60px;
+ 
+}
+
+
