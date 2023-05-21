@@ -83,3 +83,12 @@
   background-color:#934D3C;
   box-shadow:0px 0px 10px 10px #934D3C;
 }
+
+/* Links inside the dropdown */
+#dropdown-content2 a {
+ 
+  padding-right: 60px;
+ 
+}
+
+

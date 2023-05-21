@@ -6,7 +6,7 @@
 .container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto auto auto;
     gap: 0px 0px;
     grid-auto-flow: row;
 }
@@ -24,6 +24,29 @@ nav {
     margin-left: -9px;
 }
 
+#borderLeft {
+    grid-area: 2 / 1 / 6 / 2;
+    margin-top: 6%;
+    margin-left: -5%;
+}
+
+#borderLeft img {
+    box-shadow: none;
+}
+
+#borderRight img {
+    box-shadow: none;
+}
+
+#borderRight {
+    grid-area: 2 / 12 / 6 / 13;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    margin-top: 6%;
+    margin-right: -5%;
+}
+
 .about {
     grid-area: 3 / 1 / 4 / 9;
     font-size: 2rem;
@@ -32,15 +55,15 @@ nav {
     line-height: 140%;
 }
 
-.map{
+.map {
     grid-area: 3 / 11 / 4 / 13;
 
 }
 
-.map img{
-width: 250px;
- margin-top: 25%;
- margin-left: -25%;
+.map img {
+    width: 250px;
+    margin-top: 25%;
+    margin-left: -25%;
 }
 
 .pageLinks {
@@ -54,22 +77,22 @@ width: 250px;
 }
 
 #btn1 {
-margin-left: 6% ;
+    margin-left: 6%;
 }
 
-#btn2{
-    margin-left: 8% ;
+#btn2 {
+    margin-left: 8%;
 }
 
-#btn3{
-    margin-left: 8% ;
+#btn3 {
+    margin-left: 8%;
 }
 
-#btn4{
-    margin-left: 8% ;
+#btn4 {
+    margin-left: 8%;
 }
 
-.pageLinks img{
+.pageLinks img {
     border-radius: 65px;
     width: 300px;
     box-shadow: 10px 10px #ffffff;
@@ -79,26 +102,68 @@ margin-left: 6% ;
     grid-area: 5 / 1 / 6 / 13;
     margin: 3% 2%;
     font-size: 2rem;
+    line-height: 200%;
+   
 }
 
-h1{
+
+
+.gameLinks {
+    grid-area: 6 / 1 / 7 / 13;
+
+    font-size: 3rem;
+    margin-bottom: 10%;
+
+}
+
+.gameLinks a {
+    text-decoration: none;
+    background-color: #6A1D2B;
+    color: white;
+    box-shadow: 8px 6px #949494;
+}
+
+#gamebtn1 {
+    display: flex;
+    float: left;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 30px;
+    margin-left: 15%;
+}
+
+#gamebtn2 {
+    display: flex;
+    float: right;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 30px;
+    margin-right: 15%;
+}
+
+h1 {
     font-size: 4rem;
     line-height: 140%;
 }
 
+
 footer {
-    grid-area: 6 / 1 / 7 / 13;
+    grid-area: 7 / 1 / 8 / 13;
     background-color: #333;
-    margin:-1%;
+    margin: -1%;
     color: white;
     font-size: 1.5rem;
 }
 
-footer p{
+footer p {
     margin-left: 3%;
 }
 
-footer a{
+footer a {
     color: white;
     margin-left: 3%;
 }
