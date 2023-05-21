@@ -48,6 +48,8 @@ nav {
   display: flex;
   justify-content: center;
   align-items: center;
+
+
 }
 
 #options{
@@ -142,24 +144,20 @@ border-radius: 300px;
 }
 
 footer {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
   grid-area: 6 / 1 / 7 / 13;
-  background-color: #333;
-  margin: -1%;
+  background-color: rgb(0, 0, 0);
   color: white;
   font-size: 1.5rem;
+  margin: -1.5%;
 }
 
-footer p {
-  margin-left: 3%;
-}
-
-footer a {
+footer a{
   color: white;
-  margin-left: 3%;
+  float: right;
+  margin-right: 3%;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  
 }
 
 #endQuiz {
