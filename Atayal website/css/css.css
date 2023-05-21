@@ -1,9 +1,7 @@
 body {
-  padding: 0;
-  margin: 3%;
   list-style: none;
   color: #333;
-  background-image: url("backDeco.png");
+  margin:0px;
 }
 .main{
   background-color:antiquewhite;
@@ -14,14 +12,33 @@ body {
   font-family: 'Times New Roman', Times, serif;
   font-size: 16px;
 }
+.container{
+  display: flex;
+
+}
 .main-kitchen{
   background-image: url("backKit.jpeg");
-  background-position-y: 120px;
   width:1820px;
-  height:1200px;
+  height:1080px;
   background-size: 1800px 1100px;
 }
 
+#borderLeft img{
+  box-shadow: none;
+  height:1080px;
+}
+
+#borderRight img{
+  box-shadow: none;
+  height:1080px;
+}
+
+#borderRight{
+  display: inline-block;
+  justify-content: right;
+  align-items: center;
+ 
+}
 .dynamic-main{
   height:850px;
   width:1800px;
@@ -308,14 +325,13 @@ a:hover {
 .body-living{
   font-family: 'Times New Roman', Times, serif;
   font-size: 16px;
-  background-size: 1800px 1000px;
+
 }
 .main-living{
   background-image: url("backLiv.png");
-  background-position-y: 100px;
   width:1820px;
-  height:1000px;
-  background-size: 1800px 1000px;
+  height:1080px;
+  background-size: 1800px 1100px;
 }
 #bed{
   position: relative;
@@ -537,3 +553,12 @@ button:hover{
   background-color: #EABB42;
   color: #604C2A;
 }
+
+.footer a{
+  color:white;
+  font-size: 1.5em;
+}
+.footer a:hover{
+  color:#EABB42;
+}
+
