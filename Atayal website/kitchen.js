@@ -4,6 +4,9 @@ document.getElementById("hide2").addEventListener("click", () => {
 document.getElementById("hide3").addEventListener("click", () => {
     location.replace("intro.html");
 })
+document.getElementById("hide6").addEventListener("click", () => {
+  location.replace("intro.html");
+})
 let x = document.getElementById("hide");
 let y = document.getElementById("hide2");
 x.style.display = "none";
@@ -28,5 +31,29 @@ document.getElementById("tmmyan").addEventListener("click", () => {
     } else {
       a.style.display = "none";
       b.style.display="none";
+    }
+})
+let c = document.getElementById("hide5");
+c.style.display = "none";
+document.getElementById("zishu").addEventListener("click", () => {
+    if (c.style.display === "none") {
+      c.style.display = "block";
+  
+    } else {
+      c.style.display = "none";
+  
+    }
+})
+let q = document.getElementById("hide6");
+let w = document.getElementById("hide7");
+q.style.display = "none";
+w.style.display = "none";
+document.getElementById("barice").addEventListener("click", () => {
+    if (q.style.display === "none") {
+      q.style.display = "block";
+      w.style.display="block";
+    } else {
+      q.style.display = "none";
+      w.style.display="none";
     }
 })

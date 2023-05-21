@@ -1,4 +1,4 @@
-/* exported allRecipes, allIngredients */
+
 'use strict';
 
 class beans {
@@ -85,6 +85,65 @@ class leave {
     }
 }
 
+class bamboo {
+    constructor(pointValue) {
+        this.image = 'Bamboo.png';
+        this.pointValue = pointValue;
+    }
+}
+
+class fabrics {
+    constructor(pointValue) {
+        this.image = 'Fabrics.png';
+        this.pointValue = pointValue;
+    }
+}
+
+class gears {
+    constructor(pointValue) {
+        this.image = 'Gears.png';
+        this.pointValue = pointValue;
+    }
+}
+
+class pattern {
+    constructor(pointValue) {
+        this.image = 'Pattern.jpg';
+        this.pointValue = pointValue;
+    }
+}
+
+class pennant {
+    constructor(pointValue) {
+        this.image = 'Pennant.png';
+        this.pointValue = pointValue;
+    }
+}
+
+class rope {
+    constructor(pointValue) {
+        this.image = 'Rope.png';
+        this.pointValue = pointValue;
+    }
+}
+
+class stone {
+    constructor(pointValue) {
+        this.image = 'Stone.png';
+        this.pointValue = pointValue;
+    }
+}
+
+class wood{
+    constructor(pointValue) {
+        this.image = 'Wood.png';
+        this.pointValue = pointValue;
+    }
+}
+
+
+
+
 //Recipe Construction 
 class Recipe {
     constructor(name, ingredients) {
@@ -106,6 +165,14 @@ const allIngredients = [
     new jar(0),
     new zishu(0),
     new leave(0),
+    new bamboo(0),
+    new fabrics(0),
+    new gears(0),
+    new pattern(0),
+    new pennant(0),
+    new rope(0),
+    new stone(0),
+    new wood(0),
 ];
 
 
@@ -114,7 +181,8 @@ const bbrice = new Recipe('Zhu Zhu',
         new beans(30),
         new carrot(30),
         new rice(10),
-        new corn(30), 
+        new corn(20), 
+        new bamboo(10),
         new salt(10)  
     ]);
         
@@ -134,44 +202,43 @@ const tmmyan = new Recipe('Tmmyan',
         new jar(20)
     ]);
 
-const Ffive = new Recipe('Ffive',
-    [     
-        
-        new corn(20)
-    ]);
-
-const food = [bbrice, barice, tmmyan, Ffive];
+const food = [bbrice, barice, tmmyan];
 
 
-const Lone = new Recipe('Lone',
+const basket = new Recipe('Basket',
     [
-        new jar(20)
+        new bamboo(50),
+        new rope(20)
     ]);
     
-const Ltwo = new Recipe('Ltwo',
+const lubuw = new Recipe('Lubuw',
     [
-        new jar(30),
-        new beans(30)
+        new wood(60),
+        new rope(20)
     ]);
 
-const Lthree = new Recipe('Lthree',
+const loom = new Recipe('Loom',
     [
-        new jar(20)
+        new gears(10),
+        new wood(10),
+        new fabrics(30),
+        new pattern(30),
+        new rope(30)
     ]);
 
-const Lfour = new Recipe('Lfour',
+const headdress = new Recipe('Headdress',
     [
-        new jar(40),
-        new jar(20)
+        new stone(60),
+        new pennant(30)
     ]);
     
-const Lfive = new Recipe('Lfive',
+const earring = new Recipe('Earring',
     [
-        new jar(40),
-        new corn(10)
+        new bamboo(60),
+        new rope(30)
     ]);
     
-const living = [Lone, Ltwo, Lthree, Lfour, Lfive];
+const living = [basket, lubuw, loom, headdress, earring];
 
 const Hone = new Recipe('Hone',
     [      
