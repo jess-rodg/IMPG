@@ -88,7 +88,7 @@ a:hover {
   color: rgb(255, 255, 255);
   font-size: larger;
   border:3px solid #000000; 
-  box-shadow:0px 0px 10px 10px #805008;
+  box-shadow:0px 0px 10px 10px #934D3C;
 }
 /*here*/
 .listimg{
@@ -202,14 +202,17 @@ a:hover {
   width:100px;
   height:100px;
   position:relative;
-  left:1200px;
+  left:1650px;
   top:460px;
+}
+#bbrice:hover{
+  animation:hoverAni 2s infinite;
 }
 #hide{
   height:200px;
   width:400px;
-  left:1100px;
-  top:720px;
+  left:1400px;
+  top:370px;
   padding:1%;
   position:absolute;
   background:#000;
@@ -224,8 +227,8 @@ a:hover {
   height:30px;
   position:absolute;
   border-radius: 25px;
-  left:1280px;
-  top:930px;
+  left:1580px;
+  top:590px;
 }
 #tmmyan{
   display:block;
@@ -234,6 +237,9 @@ a:hover {
   position:relative;
   left:1400px;
   top:375px;
+}
+#tmmyan:hover{
+  animation:hoverAni 2s infinite;
 }
 #hide4{
   color: black;
@@ -257,9 +263,64 @@ a:hover {
   border-radius: 25px;
   line-height: 1em;
   z-index: 10;
+}
+#zishu{
+  width:150px;
+  height:150px;
+  position:absolute;
+  top:93%;
+  left:30%;
+}
+#zishu:hover{
+  animation:hoverAni 2s infinite;
+}
+#hide5{
+  color: black;
+  height:30px;
+  position:absolute;
+  height:80px;
+  width:350px;
+  left:720px;
+  background:#000;
+  padding:1%;
+  top:1000px;
+  border-radius: 25px;
+  color: antiquewhite;
+  text-shadow: 1px 1px 0px #000;
+}
+#barice{
+  width:350px;
+  height:350px;
+  position:absolute;
+  top:50%;
+  left:60%;
+}
+#barice:hover{
+  animation:hoverAni 2s infinite;
+}
+#hide6{
+  height:30px;
+  position:absolute;
+  left:1370px;
+  top:900px;
+  border-radius: 25px;
+  line-height: 1em;
   height: 30px;
 }
-
+#hide7{
+  color: black;
+  height:30px;
+  position:absolute;
+  height:140px;
+  width:350px;
+  left:1220px;
+  background:#000;
+  padding:1%;
+  top:750px;
+  border-radius: 25px;
+  color: antiquewhite;
+  text-shadow: 1px 1px 0px #000;
+}
 /*living room*/
 .body-living{
   font-family: 'Times New Roman', Times, serif;
@@ -277,10 +338,13 @@ a:hover {
   left:61%;
   top: 380px;
 }
+#bed:hover{
+  animation:largeAni 2s infinite;
+}
 #liv{
   position:absolute;
-  left:53%;
-  top:52%;  
+  left:58%;
+  top:62%;  
   padding:1%;
   position:absolute;
   background:#000;
@@ -297,6 +361,9 @@ a:hover {
   left:-20%;
   height:80px;
   width:80px;
+}
+#earring:hover{
+  animation:hoverAni 2s infinite;
 }
 #liv2{
   position:absolute;
@@ -316,10 +383,13 @@ a:hover {
   left:-13%;
   top:-2%;  
 }
+#curtain:hover{
+  animation:largeAni 2s infinite;
+}
 #liv3{
   position:absolute;
-  left:60%;
-  top:22%;  
+  left:40%;
+  top:20%;  
   padding:1%;
   position:absolute;
   background:#000;
@@ -338,6 +408,9 @@ a:hover {
   position: relative;
   top:-42%;
   left:4%;
+}
+#sleeveless:hover{
+  animation:hoverAni 2s infinite;
 }
 #liv5{
   position:absolute;
@@ -358,6 +431,9 @@ a:hover {
   height:110px;
   width:110px;
 }
+#head:hover{
+  animation:hoverAni 2s infinite;
+}
 #liv6{
   position:absolute;
   left:47%;
@@ -377,10 +453,15 @@ a:hover {
   height:160px;
   width:160px;
 }
+#instrument1:hover{
+  animation:hoverAni 2s infinite;
+}
 #liv7{
   position:absolute;
-  left:52%;
+  left:58%;
   top:22%;  
+  width:300px;
+  height:300px;
   padding:1%;
   position:absolute;
   background:#000;
@@ -393,6 +474,9 @@ a:hover {
   position: relative;
   left:13%;
   top:-8%;
+}
+#basket:hover{
+  animation:hoverAni 2s infinite;
 }
 #liv8{
   position:absolute;
@@ -414,10 +498,15 @@ a:hover {
   top:0%;
   height:400px;
 }
+#cloth:hover{
+  animation:largeAni 2s infinite;
+}
 #liv4{
   position:absolute;
-  left:38%;
-  top:48%;  
+  left:25%;
+  top:55%;  
+  width:300px;
+  height:210px;
   padding:1%;
   position:absolute;
   background:#000;
@@ -426,6 +515,45 @@ a:hover {
   border-radius: 25px;
   line-height: 1em;
 }
+@keyframes hoverAni{
+  0%{
+   transform:rotate(-4deg);
+ }
+ 50%{
+   transform:rotate(5deg);
+ }
+ 100%{
+   transform:rotate(-4deg);
+ }
+}
+@keyframes largeAni{
+  0%{
+   transform:rotate(-2deg);
+ }
+ 50%{
+   transform:rotate(3deg);
+ }
+ 100%{
+   transform:rotate(-2deg);
+ }
+}
+@keyframes largeAni{
+  0%{
+   transform:rotate(-2deg);
+ }
+ 50%{
+   transform:rotate(3deg);
+ }
+ 100%{
+   transform:rotate(-2deg);
+ }
+}
+button:hover{
+  font-weight:bold;
+  background-color: #EABB42;
+  color: #604C2A;
+}
+
 .footer a{
   color:white;
   font-size: 1.5em;

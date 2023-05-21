@@ -9,6 +9,8 @@
   grid-template-rows: auto auto auto auto auto;
   gap: 0px 0px;
   grid-auto-flow: row;
+  width:1920px;
+  height:1080px;
 }
 
 nav {
@@ -21,6 +23,7 @@ nav {
   margin-left: 5%;
   margin-bottom: -10%;
 }
+
 
 #borderLeft{
   grid-area: 2 / 1 / 6 / 2;
@@ -141,6 +144,10 @@ border-radius: 300px;
 #nextQuestionButton button:hover{
   color: rgb(255, 0, 0);
   background-color: #dbdbdb;
+}
+button:hover{
+  font-weight: bold;
+  color:#604C2A;
 }
 
 footer {

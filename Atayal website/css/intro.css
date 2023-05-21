@@ -102,6 +102,23 @@ h2 {
     flex-direction:column;
 
 }
+@keyframes hoverAni{
+    0%{
+     transform:rotate(-4deg);
+   }
+   50%{
+     transform:rotate(5deg);
+   }
+   100%{
+     transform:rotate(-4deg);
+   }
+  }
+ #male:hover{
+    animation:hoverAni 3s infinite;
+ }
+  #female:hover{
+    animation:hoverAni 3s infinite;
+  }
 .footer a{
     color: white;
     font-size: 1.5em;
