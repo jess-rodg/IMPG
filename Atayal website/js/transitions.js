@@ -36,7 +36,7 @@ class Transition {
             this.message = 'You can do better! Got to step it up in the next round!';
 
         } else if(this.roundNumber === 1 && this.roundScore < 120) {
-            this.message = 'Nice work! You are about to be the dad hand of Tayal! ';
+            this.message = 'Nice work! You are about to be the dab hand of Tayal! ';
 
         } else if(this.roundNumber === 1 && this.roundScore <= 150) {
             this.message = 'Amazing! You are just like a Tayal people!';

@@ -164,7 +164,12 @@ footer a{
     float: right;
     margin-right: 3%;
     margin-top: 2%;
-    margin-bottom: 2%;
-    
+    margin-bottom: 2%;  
 }
 
+footer a:hover{
+    color:rgb(221, 182, 11);
+  }
+  a{
+    text-decoration: none;
+  }

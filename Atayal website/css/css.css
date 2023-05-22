@@ -250,7 +250,7 @@ a:hover {
   left:1380px;
   background:#000;
   padding:1%;
-  top:740px;
+  top:690px;
   border-radius: 25px;
   color: antiquewhite;
   text-shadow: 1px 1px 0px #000;
@@ -259,7 +259,7 @@ a:hover {
   height:30px;
   position:absolute;
   left:1570px;
-  top:1100px;
+  top:1050px;
   border-radius: 25px;
   line-height: 1em;
   z-index: 10;
@@ -292,7 +292,7 @@ a:hover {
   width:350px;
   height:350px;
   position:absolute;
-  top:50%;
+  top:43%;
   left:60%;
 }
 #barice:hover{
@@ -302,7 +302,7 @@ a:hover {
   height:30px;
   position:absolute;
   left:1370px;
-  top:900px;
+  top:830px;
   border-radius: 25px;
   line-height: 1em;
   height: 30px;
@@ -316,7 +316,7 @@ a:hover {
   left:1220px;
   background:#000;
   padding:1%;
-  top:750px;
+  top:670px;
   border-radius: 25px;
   color: antiquewhite;
   text-shadow: 1px 1px 0px #000;
@@ -331,12 +331,12 @@ a:hover {
   background-image: url("backLiv.png");
   width:1820px;
   height:1080px;
-  background-size: 1800px 1100px;
+  background-size: 1800px 1080px;
 }
 #bed{
   position: relative;
   left:61%;
-  top: 380px;
+  top: 440px;
 }
 #bed:hover{
   animation:largeAni 2s infinite;
@@ -370,6 +370,7 @@ a:hover {
   left:26%;
   top:22%;  
   padding:1%;
+  width:300px;
   position:absolute;
   background:#000;
   color: antiquewhite;
@@ -381,7 +382,7 @@ a:hover {
 #curtain{
   position: relative;
   left:-13%;
-  top:-2%;  
+  top:1.6%;  
 }
 #curtain:hover{
   animation:largeAni 2s infinite;
@@ -401,12 +402,12 @@ a:hover {
 }
 #skirt{
   position: relative;
-  top:23%;
-  left:-53%;
+  top:26%;
+  left:-45%;
 }
 #sleeveless{
   position: relative;
-  top:-42%;
+  top:-36%;
   left:4%;
 }
 #sleeveless:hover{
@@ -415,7 +416,7 @@ a:hover {
 #liv5{
   position:absolute;
   left:7%;
-  top:37%;  
+  top:34%;  
   padding:1%;
   position:absolute;
   background:#000;
@@ -426,7 +427,7 @@ a:hover {
 }
 #head{
   position: relative;
-  top:-36%;
+  top:-30%;
   left:54%;
   height:110px;
   width:110px;
@@ -446,14 +447,14 @@ a:hover {
   border-radius: 25px;
   line-height: 1em;
 }
-#instrument1{
+#lubuw{
   position: relative;
-  top:-58%;
+  top:-48%;
   left:57%;
   height:160px;
   width:160px;
 }
-#instrument1:hover{
+#lubuw:hover{
   animation:hoverAni 2s infinite;
 }
 #liv7{
@@ -473,7 +474,7 @@ a:hover {
 #basket{
   position: relative;
   left:13%;
-  top:-8%;
+  top:2%;
 }
 #basket:hover{
   animation:hoverAni 2s infinite;
@@ -494,7 +495,7 @@ a:hover {
 }
 #cloth{
   position: relative;
-  left:-39%;
+  left:-40%;
   top:0%;
   height:400px;
 }
@@ -504,7 +505,7 @@ a:hover {
 #liv4{
   position:absolute;
   left:25%;
-  top:55%;  
+  top:50%;  
   width:300px;
   height:210px;
   padding:1%;
@@ -562,3 +563,14 @@ button:hover{
   color:#EABB42;
 }
 
+.websiteName {
+  margin-bottom: 2.4%;
+  font-weight: 300;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  
+}
+.navbar{
+  padding-top: 10px;
+  font-weight: 300;
+  line-height: 1;
+}
