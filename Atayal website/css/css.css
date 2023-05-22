@@ -10,7 +10,7 @@ body {
 
 .body-kitchen{
   font-family: 'Times New Roman', Times, serif;
-  font-size: 16px;
+  font-size: 1.4em;
 }
 .container{
   display: flex;
@@ -209,10 +209,10 @@ a:hover {
   animation:hoverAni 2s infinite;
 }
 #hide{
-  height:200px;
-  width:400px;
+  height:240px;
+  width:420px;
   left:1400px;
-  top:370px;
+  top:310px;
   padding:1%;
   position:absolute;
   background:#000;
@@ -228,7 +228,7 @@ a:hover {
   position:absolute;
   border-radius: 25px;
   left:1580px;
-  top:590px;
+  top:570px;
 }
 #tmmyan{
   display:block;
@@ -243,11 +243,10 @@ a:hover {
 }
 #hide4{
   color: black;
-  height:30px;
   position:absolute;
-  height:350px;
-  width:400px;
-  left:1380px;
+  height:380px;
+  width:480px;
+  left:1320px;
   background:#000;
   padding:1%;
   top:690px;
@@ -259,7 +258,7 @@ a:hover {
   height:30px;
   position:absolute;
   left:1570px;
-  top:1050px;
+  top:1080px;
   border-radius: 25px;
   line-height: 1em;
   z-index: 10;
@@ -278,12 +277,12 @@ a:hover {
   color: black;
   height:30px;
   position:absolute;
-  height:80px;
+  height:140px;
   width:350px;
   left:720px;
   background:#000;
   padding:1%;
-  top:1000px;
+  top:950px;
   border-radius: 25px;
   color: antiquewhite;
   text-shadow: 1px 1px 0px #000;
@@ -302,7 +301,7 @@ a:hover {
   height:30px;
   position:absolute;
   left:1370px;
-  top:830px;
+  top:860px;
   border-radius: 25px;
   line-height: 1em;
   height: 30px;
@@ -311,7 +310,7 @@ a:hover {
   color: black;
   height:30px;
   position:absolute;
-  height:140px;
+  height:180px;
   width:350px;
   left:1220px;
   background:#000;
@@ -324,14 +323,14 @@ a:hover {
 /*living room*/
 .body-living{
   font-family: 'Times New Roman', Times, serif;
-  font-size: 16px;
+  font-size: 1.4em;
 
 }
 .main-living{
   background-image: url("backLiv.png");
   width:1820px;
   height:1080px;
-  background-size: 1800px 1080px;
+  background-size: 1800px 1100px;
 }
 #bed{
   position: relative;
@@ -343,7 +342,7 @@ a:hover {
 }
 #liv{
   position:absolute;
-  left:58%;
+  left:53%;
   top:62%;  
   padding:1%;
   position:absolute;
@@ -390,7 +389,7 @@ a:hover {
 #liv3{
   position:absolute;
   left:40%;
-  top:20%;  
+  top:17%;  
   padding:1%;
   position:absolute;
   background:#000;
@@ -437,8 +436,8 @@ a:hover {
 }
 #liv6{
   position:absolute;
-  left:47%;
-  top:38%;  
+  left:58%;
+  top:51%;  
   padding:1%;
   position:absolute;
   background:#000;
@@ -459,10 +458,10 @@ a:hover {
 }
 #liv7{
   position:absolute;
-  left:58%;
+  left:48%;
   top:22%;  
-  width:300px;
-  height:300px;
+  width:470px;
+  height:350px;
   padding:1%;
   position:absolute;
   background:#000;
@@ -481,11 +480,11 @@ a:hover {
 }
 #liv8{
   position:absolute;
-  left:42%;
-  top:48%;  
+  left:38%;
+  top:45%;  
   padding:1%;
-  height:200px;
-  width:250px;
+  height:250px;
+  width:400px;
   position:absolute;
   background:#000;
   color: antiquewhite;
@@ -505,9 +504,9 @@ a:hover {
 #liv4{
   position:absolute;
   left:25%;
-  top:50%;  
-  width:300px;
-  height:210px;
+  top:40%;  
+  width:450px;
+  height:260px;
   padding:1%;
   position:absolute;
   background:#000;

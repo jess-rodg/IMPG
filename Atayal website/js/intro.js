@@ -35,15 +35,37 @@ function playerNameSubmit(event) {
         let userName = event.target.username.value;
         userData.splice(1, 1, userName);
         window.location.replace('gameapp.html');
+       
     }
 }
 document.getElementById("female").addEventListener("click", () => {
     document.getElementById("male").style.scale=0.8;
     document.getElementById("female").style.scale=1.1;
+    select.play();
 })
 document.getElementById("male").addEventListener("click", () => {
     document.getElementById("female").style.scale=0.8;
     document.getElementById("male").style.scale=1.1;
+    select.play();
 })
+
+let select;
+function selectSound(){
+    select = new sound("sele.mp3");
+}
+function sound(src) {
+    this.sound = document.createElement("audio");
+    this.sound.src = src;
+    this.sound.setAttribute("preload", "auto");
+    this.sound.setAttribute("controls", "none");
+    this.sound.style.display = "none";
+    document.body.appendChild(this.sound);
+    this.play = function(){
+        this.sound.play();
+    }
+    this.stop = function(){
+        this.sound.pause();
+    }    
+}
 
 
