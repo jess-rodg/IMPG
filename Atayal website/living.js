@@ -66,7 +66,7 @@ document.getElementById("head").addEventListener("click", () => {
 })
 let f = document.getElementById("liv7");
 f.style.display = "none";
-document.getElementById("instrument1").addEventListener("click", () => {
+document.getElementById("lubuw").addEventListener("click", () => {
     if (f.style.display === "none") {
       f.style.display = "block";
   

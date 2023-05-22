@@ -130,12 +130,11 @@ h1.main-title {
 }
 
 #style-roundbutton {
-    margin-bottom: -90px;
+    margin-top:10%;
     width: 350px;
     cursor: pointer;
-    left: 330px;
-    top: 290px;
-    z-index: 4;
+    position: relative;
+    top:5%;
 }
 
 .individual-ingredient {
