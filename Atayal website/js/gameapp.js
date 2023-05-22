@@ -80,9 +80,28 @@ class GameApp {
         
         const exitButton = dom.getElementById('exit-button');
         exitButton.addEventListener('click', () => {
+            confirm.play();
             window.location.replace('ranking.html');
         });
         
         return dom;
     }
+}
+let confirm;
+function confirmSound(){
+    confirm = new sound("confirm.mp3");
+}
+function sound(src) {
+    this.sound = document.createElement("audio");
+    this.sound.src = src;
+    this.sound.setAttribute("preload", "auto");
+    this.sound.setAttribute("controls", "none");
+    this.sound.style.display = "none";
+    document.body.appendChild(this.sound);
+    this.play = function(){
+        this.sound.play();
+    }
+    this.stop = function(){
+        this.sound.pause();
+    }    
 }

@@ -7,11 +7,43 @@
     <link rel="stylesheet" type="text/css" href="css/main.css">
     <link rel="stylesheet" type="text/css" href="css/gameapp.css">
     <link rel="stylesheet" type="text/css" href="css/transition.css">
+    <link rel="stylesheet" type="text/css" href="css/navbar.css">
     <title>Game</title>
 </head>
 
-<body>
-    <div class="content">
+<body class="main-game" onload="confirmSound()">
+    <nav>
+            <div class="navbar">
+              <a href="index.html">Home</a>
+              <a href="food.html">Food</a>
+              <a href="clothes.html">Clothes</a>
+              <a href="architecture.html">Architecture</a>
+              <a href="traditions.html">Traditions</a>
+              <div class="dropdown">
+                <a class="dropbutton">Games
+                </a>
+                <div class="dropdown-content">
+                  <a href="intro.html"  id="active">Atayal dab hand</a>
+                  <a href="quiz.html">Knowledge quiz</a>
+                </div>
+              </div>
+              <div class="dropdown">
+                <a class="dropbutton">Explore
+                </a>
+                <div class="dropdown-content" id="dropdown-content2">
+                  <a href="kitchen.html">Kitchen</a>
+                  <a href="living.html">Living room</a>
+                  <a href="hunter.html">Hunting</a>
+                </div>
+              </div>
+              <p class="websiteName">ATAYAL</p>
+            </div>
+        </nav>
+            <div class="container">
+          <div id="borderLeft">
+            <img src="Images/borderStatic.png" height="1080px">
+        </div>
+
     <div id="root"></div>
     <template id="app-template">
         <div id="title"><h1 class="main-title">Atayal dab hand</h1>
@@ -66,7 +98,13 @@
                 <h2 id="score"></h2>
             </div>
         </template>
-
+    <div id="borderRight">
+        <img src="Images/borderStatic.png" height="1080px">
+      </div>
+    </div>
+    <div class="footer">
+        <a href="references.html">References</a>
+      </div>
         <script src = "js/recipesList.js"></script>
         <script src = "js/scoredisplay.js"></script>
         <script src = "js/transitions.js"></script>
@@ -76,6 +114,5 @@
         <script src = "js/playerdisplay.js"></script>
         <script src = "js/gameapp.js"></script>
         <script src = "js/main.js"></script>
-    </div>
     </body>
 </html>
