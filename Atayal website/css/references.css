@@ -21,6 +21,7 @@ nav {
     margin-left: -5%;
 }
 
+
 #borderLeft img{
     box-shadow: none;
 }
@@ -33,7 +34,7 @@ nav {
     grid-area: 2 / 12 / 6 / 13;
     display: flex;
     justify-content: right;
-    align-items: center;
+  
     margin-top: 6%;
     margin-right: -5%;
 }
@@ -49,15 +50,40 @@ nav {
 .about{
     grid-area: 3 / 1 / 4 / 13;
     margin-left: 5%;
+    margin-right: 5%;
     font-size: 1.8rem;
 }
 
-.links{
-    grid-area: 4 / 1 / 5 / 13;
+.clothes-links{
+    grid-area: 3 / 1 / 4 / 13;
+    padding-top: 6%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.food-links{
+    grid-area: 3 / 1 / 4 / 13;
+    padding-top: 18%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
+.architectures-links{
+    grid-area: 3 / 1 / 4 / 13;
+    padding-top: 33%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.tradtions-links{
+    grid-area: 3 / 1 / 4 / 13;
+    padding-top: 46%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+
 footer {
-    grid-area: 6 / 1 / 7 / 13;
+    grid-area: 16 / 1 / 17 / 13;
     background-color: rgb(0, 0, 0);
     color: white;
     font-size: 1.5rem;
