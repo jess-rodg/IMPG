@@ -103,7 +103,6 @@ nav {
     margin: 3% 2%;
     font-size: 2rem;
     line-height: 200%;
-   
 }
 
 
@@ -172,4 +171,14 @@ footer a:hover{
   }
   a{
     text-decoration: none;
+  }
+
+  .websiteName {
+    float: right;
+    color: white;
+    margin-top:1.6%;
+    font-size: 2em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-right: 3%;
+    letter-spacing: 15px;
   }

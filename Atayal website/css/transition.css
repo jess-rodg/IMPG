@@ -22,3 +22,12 @@ h2.transition-message {
     width: 500px;
     border:7px solid black;
 }
+.websiteName {
+    float: right;
+    color: white;
+    margin-top:1.6%;
+    font-size: 2em;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-right: 3%;
+    letter-spacing: 15px;
+  }

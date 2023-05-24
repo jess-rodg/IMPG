@@ -152,10 +152,7 @@ a {
     align-items: center;
     padding: 0 30px;
   }
-  .logo {
-    font-size: 2em;
-    color: #fff;
-  }
+  
   .nav ul {
     display: flex;
     justify-content: space-between;
@@ -211,13 +208,6 @@ a {
  
 }
 
-
-.websiteName {
-  margin-bottom: 2.4%;
-  font-weight: 300;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  
-}
 .navbar{
   padding-top: 10px;
   font-weight: 300;
