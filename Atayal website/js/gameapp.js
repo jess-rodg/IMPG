@@ -41,7 +41,7 @@ class GameApp {
             document.getElementById('root').style.backgroundImage = 'url(backLiv.png)';
             
         } else {
-            document.getElementById('root').style.backgroundImage = 'url(backKit.jpeg)';
+            document.getElementById('root').style.backgroundImage = 'url(backHunt.png)';
         }
         
 

@@ -42,7 +42,7 @@ nav {
     display: flex;
     justify-content: right;
     align-items: center;
-    margin-top: 6%;
+    margin-top: -5%;
     margin-right: -5%;
 }
 
@@ -68,8 +68,7 @@ nav {
 #image1 {
     margin-left: 8.5%;
 }
-img{
-   
+img{ 
     box-shadow: 0px 0px 10px 8px #604C2A;
 }
 
@@ -94,10 +93,8 @@ img{
 }
 
 #headingPlaceholder {
-  
     margin-top: 10%;
-    font-size: 2rem;
-    
+    font-size: 2rem; 
 }
 
 #textPlaceholder { 
@@ -110,7 +107,7 @@ footer {
     background-color: rgb(0, 0, 0);
     color: white;
     font-size: 1.5rem;
-    margin: -1.5%;
+    margin: -3%;
 }
 
 footer a{

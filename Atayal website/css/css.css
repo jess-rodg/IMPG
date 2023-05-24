@@ -7,14 +7,12 @@ body {
   background-color:antiquewhite;
   border:10px solid black;
 }
-
 .body-kitchen{
   font-family: 'Times New Roman', Times, serif;
   font-size: 1.4em;
 }
 .container{
   display: flex;
-
 }
 .main-kitchen{
   background-image: url("backKit.jpeg");
@@ -27,7 +25,6 @@ body {
   box-shadow: none;
   height:1080px;
 }
-
 #borderRight img{
   box-shadow: none;
   height:1080px;
@@ -37,7 +34,6 @@ body {
   display: inline-block;
   justify-content: right;
   align-items: center;
- 
 }
 .dynamic-main{
   height:850px;
@@ -62,10 +58,6 @@ a:hover {
   padding: 0 30px;
 }
 
-.logo {
-  font-size: 2em;
-  color: #fff;
-}
 .nav ul {
   display: flex;
   justify-content: space-between;
@@ -90,7 +82,6 @@ a:hover {
   border:3px solid #000000; 
   box-shadow:0px 0px 10px 10px #934D3C;
 }
-/*here*/
 .listimg{
   display: flex;
   justify-content: space-around;
@@ -104,7 +95,6 @@ a:hover {
   height:280px;
   overflow: hidden;
 }
-
 .listimg ul  li img{
   width: 340px;
   height: 280px;
@@ -138,7 +128,6 @@ a:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  
 }
 .right p{
   font-size: 1em;
@@ -562,14 +551,205 @@ button:hover{
   color:#EABB42;
 }
 
-.websiteName {
-  margin-bottom: 2.4%;
-  font-weight: 300;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  
-}
 .navbar{
   padding-top: 10px;
   font-weight: 300;
   line-height: 1;
+}
+.websiteName {
+  float: right;
+  color: white;
+  margin-top:1.6%;
+  font-size: 1.5em;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  margin-right: 3%;
+  letter-spacing: 15px;
+}
+
+/*hunter workshop*/
+.main-hunter{
+  font-size:1.4em;
+}
+.body-hunter .navbar .websiteName{
+  font-size: 2em;
+}
+.main-hunter{
+  background-image: url("backHunt.png");
+  width:1820px;
+  height:1080px;
+  background-size: 1800px 1100px;
+}
+#gun{
+  width:130px;
+  height:300px;
+  position:absolute;
+  top:45%;
+  left:12%;
+}
+#hunt2{
+  position:absolute;
+  width:250px;
+  height:400px;
+  position:absolute;
+  top:40%;
+  left:19%;
+  padding:1%;
+  position:absolute;
+  background:#000;
+  color: antiquewhite;
+  text-shadow: 1px 1px 0px #000;
+  border-radius: 25px;
+  line-height: 1em;
+}
+#hunt{
+  color: black;
+  height:30px;
+  position:absolute;
+  border-radius: 25px;
+  left:26%;
+  top:81%;
+}
+#gun:hover{
+  animation:hoverAni 2s infinite;
+}
+#bow{
+  width:150px;
+  height:350px;
+  position:absolute;
+  top:45%;
+  left:20%;
+}
+#hunt4{
+  position:absolute;
+  width:250px;
+  height:300px;
+  position:absolute;
+  top:40%;
+  left:29%;
+  padding:1%;
+  position:absolute;
+  background:#000;
+  color: antiquewhite;
+  text-shadow: 1px 1px 0px #000;
+  border-radius: 25px;
+  line-height: 1em;
+}
+#hunt3{
+  color: black;
+  height:30px;
+  position:absolute;
+  border-radius: 25px;
+  left:36%;
+  top:72%;
+}
+#bow:hover{
+  animation:hoverAni 2s infinite;
+}
+#trap2{
+  width:100px;
+  height:150px;
+  position:absolute;
+  top:38%;
+  left:18%;
+}
+#hunt6{
+  position:absolute;
+  width:330px;
+  height:280px;
+  position:absolute;
+  top:35%;
+  left:24%;
+  padding:1%;
+  position:absolute;
+  background:#000;
+  color: antiquewhite;
+  text-shadow: 1px 1px 0px #000;
+  border-radius: 25px;
+  line-height: 1em;
+}
+#hunt5{
+  color: black;
+  height:30px;
+  position:absolute;
+  border-radius: 25px;
+  left:36%;
+  top:65%;
+}
+#trap2:hover{
+  animation:hoverAni 2s infinite;
+}
+#deer{
+  width:400px;
+  height:270px;
+  position:absolute;
+  top:13%;
+  left:68%;
+}
+#hunt7{
+  position:absolute;
+  width:250px;
+  height:80px;
+  position:absolute;
+  top:11%;
+  left:72%;
+  padding:1%;
+  position:absolute;
+  background:#000;
+  color: antiquewhite;
+  text-shadow: 1px 1px 0px #000;
+  border-radius: 25px;
+  line-height: 1em;
+}
+#deer:hover{
+  animation:hoverAni 2s infinite;
+}
+#arrow{
+  width:250px;
+  height:250px;
+  position:absolute;
+  top:42%;
+  left:78%;
+}
+#hunt8{
+  position:absolute;
+  width:140px;
+  height:15px;
+  position:absolute;
+  top:47%;
+  left:76%;
+  padding:1%;
+  position:absolute;
+  background:#000;
+  color: antiquewhite;
+  text-shadow: 1px 1px 0px #000;
+  border-radius: 25px;
+  line-height: 1em;
+}
+#arrow:hover{
+  animation:hoverAni 2s infinite;
+}
+#rabbit{
+  width:100px;
+  height:250px;
+  position:absolute;
+  top:19%;
+  left:40%;
+}
+#hunt9{
+  position:absolute;
+  width:120px;
+  height:80px;
+  position:absolute;
+  top:25%;
+  left:45%;
+  padding:1%;
+  position:absolute;
+  background:#000;
+  color: antiquewhite;
+  text-shadow: 1px 1px 0px #000;
+  border-radius: 25px;
+  line-height: 1em;
+}
+#rabbit:hover{
+  animation:hoverAni 2s infinite;
 }

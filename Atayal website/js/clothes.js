@@ -20,7 +20,6 @@ $(document).ready(function () {
     })
 
     $("#image2").on("click", function () {
-
         $("#imagePlaceholder").html("<img src='Images/female.jpeg'>");
         $("#headingPlaceholder").html("<h2>Atayal Female Costume</h2>");
         $("#textPlaceholder").html("<p>For Atayal women, their costumes consist of a headband, headdress, long-sleeved Mandarin-style short jacket, skirt and leggings. The front of the Atayal shirts are often adorned with diamond shapes and the back embroidered with complex patterns. Legend says that these diamond shapes are eyes, which represent the protection given by ancestors.</p>");
