@@ -3,6 +3,10 @@
   font-weight: 300;
 }
 
+body{
+  background-color: antiquewhite;
+}
+
 .container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
