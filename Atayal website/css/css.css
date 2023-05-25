@@ -217,7 +217,7 @@ a:hover {
   position:absolute;
   border-radius: 25px;
   left:1580px;
-  top:570px;
+  top:560px;
 }
 #tmmyan{
   display:block;
@@ -459,6 +459,15 @@ a:hover {
   border-radius: 25px;
   line-height: 1em;
 }
+#liv10{
+  height:30px;
+  position:absolute;
+  left:65%;
+  top:59%;
+  border-radius: 25px;
+  line-height: 1em;
+  z-index: 10;
+}
 #basket{
   position: relative;
   left:13%;
@@ -480,6 +489,15 @@ a:hover {
   text-shadow: 1px 1px 0px #000;
   border-radius: 25px;
   line-height: 1em;
+}
+#liv11{
+  height:30px;
+  position:absolute;
+  left:53%;
+  top:72%;
+  border-radius: 25px;
+  line-height: 1em;
+  z-index: 10;
 }
 #cloth{
   position: relative;
@@ -503,6 +521,15 @@ a:hover {
   text-shadow: 1px 1px 0px #000;
   border-radius: 25px;
   line-height: 1em;
+}
+#liv9{
+  height:30px;
+  position:absolute;
+  left:42%;
+  top:68%;
+  border-radius: 25px;
+  line-height: 1em;
+  z-index: 10;
 }
 @keyframes hoverAni{
   0%{

@@ -1,3 +1,12 @@
+document.getElementById("liv9").addEventListener("click", () => {
+  location.replace("intro.html");
+})
+document.getElementById("liv10").addEventListener("click", () => {
+  location.replace("intro.html");
+})
+document.getElementById("liv11").addEventListener("click", () => {
+location.replace("intro.html");
+})
 let x = document.getElementById("liv");
 x.style.display = "none";
 document.getElementById("bed").addEventListener("click", () => {
@@ -33,13 +42,15 @@ document.getElementById("curtain").addEventListener("click", () => {
 })
 let c = document.getElementById("liv4");
 c.style.display = "none";
+let h = document.getElementById("liv9");
+h.style.display = "none";
 document.getElementById("cloth").addEventListener("click", () => {
     if (c.style.display === "none") {
       c.style.display = "block";
-  
+      h.style.display = "block";
     } else {
       c.style.display = "none";
-  
+      h.style.display = "none";
     }
 })
 let d = document.getElementById("liv5");
@@ -66,23 +77,27 @@ document.getElementById("head").addEventListener("click", () => {
 })
 let f = document.getElementById("liv7");
 f.style.display = "none";
+let i = document.getElementById("liv10");
+i.style.display = "none";
 document.getElementById("lubuw").addEventListener("click", () => {
     if (f.style.display === "none") {
       f.style.display = "block";
-  
+      i.style.display = "block";
     } else {
       f.style.display = "none";
-  
+      i.style.display = "none";
     }
 })
 let g = document.getElementById("liv8");
 g.style.display = "none";
+let j = document.getElementById("liv11");
+j.style.display = "none";
 document.getElementById("basket").addEventListener("click", () => {
     if (g.style.display === "none") {
       g.style.display = "block";
-  
+      j.style.display = "block";
     } else {
       g.style.display = "none";
-  
+      j.style.display = "none";
     }
 })
