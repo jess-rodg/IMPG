@@ -80,7 +80,6 @@ class GameApp {
         
         const exitButton = dom.getElementById('exit-button');
         exitButton.addEventListener('click', () => {
-            confirm.play();
             window.location.replace('ranking.html');
         });
         

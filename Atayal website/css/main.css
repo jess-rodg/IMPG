@@ -52,7 +52,7 @@ p strong {
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 500;
     color: #fff;
-    font-size: 18px;
+    font-size: 1.5em;
     padding: 8px 28px;
     text-decoration: none;
     text-shadow: 0px 1px 0px #000;
@@ -78,12 +78,12 @@ button {
     font-family: 'IBM Plex Sans', sans-serif;
     font-weight: 500;
     color: #fff;
-    font-size: 14px;
+    font-size: 1.5em;
     padding: 8px 28px;
     text-decoration: none;
     text-shadow: 0px 1px 0px #000;
     margin: 20px 0px 20px 0px;
-    width:200px;
+    width:280px;
 }
 button:hover {
     background-color: rgb(216, 91, 57);

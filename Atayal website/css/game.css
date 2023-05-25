@@ -1,20 +1,23 @@
 body {
-    font-weight: 500; 
-    text-align: center;
-    background-image:url("backDeco.png");
+    margin:0px;
+  }
+ 
+.main-restart{
+    background-color: antiquewhite;
+    height:1080px;
+    width:1920px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
 }
-.content{
-    padding-top: 4%;
+.container{
+    display: flex;
 }
 #main-title{
     margin-top: 3%;
 }
-.content{
-    margin: 3%;
-    width:1800px;
-    height:900px;
-    background-color:antiquewhite;
-}
+
 h2 {
     font-family:'Courier New', Courier, monospace;
     color: rgb(246, 160, 103);
@@ -33,3 +36,12 @@ ul {
     font-weight: 500i;
     text-align: center;
 }
+.websiteName {
+    float: right;
+    color: white;
+    margin-top:1.6%;
+    font-size: 32px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-right: 3%;
+    letter-spacing: 15px;
+  }
