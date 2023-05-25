@@ -31,7 +31,7 @@ class RoundDisplay {
         if(this.roundNumber === 2) {
             document.getElementById('root').style.backgroundImage = 'url(backLiv.png)';
         } else if(this.roundNumber === 3) {
-            document.getElementById('root').style.backgroundImage = 'url(backKit.jpeg)';
+            document.getElementById('root').style.backgroundImage = 'url(backHunt.png)';
         }
     }
 
