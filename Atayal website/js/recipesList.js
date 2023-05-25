@@ -142,8 +142,6 @@ class wood{
 }
 
 
-
-
 //Recipe Construction 
 class Recipe {
     constructor(name, ingredients) {
@@ -173,6 +171,7 @@ const allIngredients = [
     new rope(0),
     new stone(0),
     new wood(0),
+    new pork(0)
 ];
 
 
@@ -240,33 +239,26 @@ const earring = new Recipe('Earring',
     
 const living = [basket, lubuw, loom, headdress, earring];
 
-const Hone = new Recipe('Hone',
+const bow = new Recipe('Atayal bow',
     [      
-        new jar(40),
-        new fish(10)
+        new rope(40),
+        new wood(10)
     ]);
 
-const Htwo = new Recipe('Htwo',
+const gun = new Recipe('Patus Tayluq',
     [ 
-        new fish(20)
+        new wood(40),
+        new pork(50),
+        new stone(30)
     ]);
-const Hthree = new Recipe('Hthree',
+const trap = new Recipe('Rusa',
     [   
-        new fish(20)
-    ]);
-    
-const Hfour = new Recipe('Hfour',
-    [
-        new fish(20)
-       
-    ]);
-
-const Hfive = new Recipe('Hfive',
-    [  
-        new fish(20)
+        new stone(50),
+        new rope(20),
+        new pork(40)
     ]);
 
 
-const hunter = [Hone, Htwo, Hthree, Hfour, Hfive];
+const hunter = [bow, gun, trap];
 
 const allRecipes = [food, living, hunter];

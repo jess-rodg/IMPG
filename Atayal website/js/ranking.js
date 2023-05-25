@@ -1,6 +1,10 @@
 'use strict';
 /* exported highScoreData clearHighScoresArray */
-
+/*!
+This code is based upon an example from github tutorial on Comments Author: W3Schools
+Location: https://github.com/teamcalendar/projectgitgrub
+Accessed: 03/03/2023
+*/
 
 renderHighScores();
 
@@ -22,7 +26,6 @@ function bubbleSort(array, property) {
 
 function renderHighScores() {
     const selectTableBody = document.querySelector('tbody');
-    
     while(selectTableBody.lastElementChild) {
         selectTableBody.lastElementChild.remove();
     }

@@ -70,7 +70,7 @@ p strong {
 }
 
 button {
-    background-color: rgb(8, 22, 146);
+    background-color: rgb(27, 81, 43);
     display: inline-block;
     cursor: pointer;
     border-radius: 4px;
@@ -83,7 +83,7 @@ button {
     text-decoration: none;
     text-shadow: 0px 1px 0px #000;
     margin: 20px 0px 20px 0px;
-width:200px;
+    width:200px;
 }
 button:hover {
     background-color: rgb(216, 91, 57);
@@ -91,8 +91,7 @@ button:hover {
     -webkit-box-shadow: inset 0px 0px 0px 0px rgb(27, 81, 43);
     box-shadow: inset 0px 0px 0px 0px rgb(27, 81, 43);
 }
-button:active {
-    
+button:active {  
     background-color: rgb(37, 76, 92);
     position: relative;
     top: 2px;
