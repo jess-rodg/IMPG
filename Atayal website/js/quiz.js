@@ -5,6 +5,7 @@ $(document).ready(function () {
     var totalQuestions;
 
     $("#nextQuestionButton").hide();
+    $("#result").hide();
     $("#endQuiz").hide();
     $("#score").hide();
 
@@ -21,18 +22,18 @@ $(document).ready(function () {
     $("#answerButton1").on("click", function () {
 
         optionClicked(0)
-        $("#answerButton1").css({"border-style": "solid", "border-width": "thick"})
+        $("#answerButton1").css({"border-style": "solid", "border-width": "10px" ,"border-color": "black"})
     });
 
     $("#answerButton2").on("click", function () {
 
         optionClicked(1)
-        $("#answerButton2").css({"border-style": "solid", "border-width": "thick"})
+        $("#answerButton2").css({"border-style": "solid", "border-width": "10px" ,"border-color": "black"})
     });
 
     $("#answerButton3").on("click", function () {
         optionClicked(2)
-        $("#answerButton3").css({"border-style": "solid", "border-width": "thick"})
+        $("#answerButton3").css({"border-style": "solid", "border-width": "10px", "border-color": "black"})
     });
 
 
@@ -45,15 +46,14 @@ $(document).ready(function () {
 
         if (question.answers[option].correct === true) {
             $("#resultPlaceholder").html("<h2>Correct!</h2>");
-            $("#resultPlaceholder").css("color", "green")
+         
             correctTally = correctTally + 1;
         } else {
             $("#resultPlaceholder").html("<h2>Incorrect!</h2>");
-            $("#resultPlaceholder").css("color", "red")
+        
             $("#incorrectSentencePlaceholder").html("<p>" + (question.incorrectSentence) + "</p>");
         }
-        $(question.answers[option].correct).css("background-color", "green");
-        $(question.answers[option].incorrect).css("background-color", "red");
+        $("#result").show();
         $("#resultPlaceholder").show();
         $("#incorrectSentencePlaceholder").show();
     }
@@ -79,6 +79,7 @@ $(document).ready(function () {
 
         $("#nextQuestionButton").hide();
         $("#resultPlaceholder").hide();
+        $("#result").hide();
         $("#incorrectSentencePlaceholder").hide();
         $("#answerButton1").css("border-style", "none")
         $("#answerButton2").css("border-style", "none")
