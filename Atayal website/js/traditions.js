@@ -46,7 +46,6 @@ $(document).ready(function () {
     })
 
     $("#image4").on("click", function () {
-
         $("#imagePlaceholder").html("<img src='Images/divination.jpeg'>");
         $("#headingPlaceholder").html("<h2>Divination Bird</h2>");
         $("#textPlaceholder").html("<p>The divination bird or <q>sinsin<q> is used in atayal culture to predict good or bad omen. When Atayal warriors went out to hunt, a village ritual was held or a wedding was happening, the divination bird<q>s song was listened to carefully. If the bird<q>s mating call <q>shee shee<q> could be heard, it would symbolise good results for whatever was happening as there was no danger around. If however the bird produced its anxious <q>zi zi<q> call or flew overhead in panic it would show their was danger around and be a bad omen for the days events</p>");

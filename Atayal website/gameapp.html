@@ -12,7 +12,7 @@
     <title>Game</title>
 </head>
 
-<body class="main-game"  onload="confirmSound()">
+<body class="main-game">
     <nav>
             <div class="navbar">
               <a href="index.html">Home</a>
@@ -73,7 +73,7 @@
 
     <template id="ingredient-selector-template">
         <div id="recipe-name" class="flex-grid"></div>
-        <img id="style-roundbutton">
+        <img id="style-roundbutton" onmousedown="confirmSound()">
         <div id="ingredient"></div>
     </template>
 

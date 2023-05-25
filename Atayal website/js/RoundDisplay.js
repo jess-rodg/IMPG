@@ -30,8 +30,14 @@ class RoundDisplay {
         
         if(this.roundNumber === 2) {
             document.getElementById('root').style.backgroundImage = 'url(backLiv.png)';
+            document.getElementById("style-roundbutton").addEventListener("click", () => {
+                confirm.play();
+            })
         } else if(this.roundNumber === 3) {
             document.getElementById('root').style.backgroundImage = 'url(backHunt.png)';
+            document.getElementById("style-roundbutton").addEventListener("click", () => {
+                confirm.play();
+            })
         }
     }
 

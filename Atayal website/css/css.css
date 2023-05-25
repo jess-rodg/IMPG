@@ -224,8 +224,8 @@ a:hover {
   width:100px;
   height:100px;
   position:relative;
-  left:1400px;
-  top:375px;
+  left:1390px;
+  top:345px;
 }
 #tmmyan:hover{
   animation:hoverAni 2s infinite;
@@ -238,7 +238,7 @@ a:hover {
   left:1320px;
   background:#000;
   padding:1%;
-  top:690px;
+  top:660px;
   border-radius: 25px;
   color: antiquewhite;
   text-shadow: 1px 1px 0px #000;
@@ -247,7 +247,7 @@ a:hover {
   height:30px;
   position:absolute;
   left:1570px;
-  top:1080px;
+  top:1050px;
   border-radius: 25px;
   line-height: 1em;
   z-index: 10;
