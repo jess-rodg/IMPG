@@ -28,6 +28,13 @@ nav {
   margin-bottom: 3%;
 }
 
+#questionNumber{
+  grid-area: 3 / 1 / 4 / 13;
+  font-size: 3rem;
+  margin-left: 7%;
+  margin-top: -5%;
+  margin-bottom: -5%;
+}
 
 #borderLeft {
   grid-area: 2 / 1 / 6 / 2;
@@ -45,7 +52,7 @@ nav {
 }
 
 #questionPlaceholder {
-  grid-area: 3 / 1 / 4 / 6;
+  grid-area: 4 / 1 / 5 / 6;
 
   margin-left: 15%;
   margin-right: 5;
@@ -76,7 +83,7 @@ nav {
 
 #options {
   display: grid;
-  grid-area: 3 / 7 / 4 / 13;
+  grid-area: 4 / 7 / 5 / 13;
   margin-right: 10%;
 
 }
@@ -113,7 +120,7 @@ nav {
 
 #result {
   display: grid;
-  grid-area: 4 / 1 / 5 / 13;
+  grid-area: 5 / 1 / 6 / 13;
   background-color: #333;
   margin-left: 5%;
   margin-right: 5%;
@@ -123,7 +130,7 @@ nav {
 
 #resultPlaceholder {
   font-size: 2.5rem;
-  grid-area: 4 / 1 / 5 / 4;
+  grid-area: 5 / 1 / 6 / 4;
   color: white;
   display: flex;
   align-items: left;
@@ -134,7 +141,7 @@ margin-left: 15%;
 #incorrectSentencePlaceholder {
   font-size: 2rem;
   text-align: left;
-  grid-area: 4 / 4 / 5 / 13;
+  grid-area: 5 / 4 / 6 / 13;
   color: white;
   margin-left: 5%;
   margin-right: 2%;
@@ -145,7 +152,7 @@ margin-left: 15%;
 
 
 #nextQuestionButton {
-  grid-area: 5 / 10 / 6 / 13;
+  grid-area: 6 / 10 / 7 / 13;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -177,7 +184,7 @@ margin-top: 10%;
 }
 
 footer {
-  grid-area: 6 / 1 / 7 / 13;
+  grid-area: 7 / 1 / 8 / 13;
   background-color: rgb(0, 0, 0);
   color: white;
   font-size: 1.5rem;

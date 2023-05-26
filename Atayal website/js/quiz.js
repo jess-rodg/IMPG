@@ -2,8 +2,10 @@ $(document).ready(function () {
     var questions;
     var question;
     var correctTally = 0;
-    var totalQuestions;
+    var questionNumber = 1;
+    var totalQuestions = 15;
 
+    $("#questionNumber").html("<p>Question " + questionNumber + "/" + totalQuestions + "<p>")
     $("#nextQuestionButton").hide();
     $("#result").hide();
     $("#endQuiz").hide();
@@ -77,6 +79,9 @@ $(document).ready(function () {
 
     $("#nextQuestionButton").on("click", function () {
 
+        questionNumber = questionNumber + 1;
+
+
         $("#nextQuestionButton").hide();
         $("#resultPlaceholder").hide();
         $("#result").hide();
@@ -85,6 +90,7 @@ $(document).ready(function () {
         $("#answerButton2").css("border-style", "none")
         $("#answerButton3").css("border-style", "none")
         if (questions.questions.length > 0) {
+            $("#questionNumber").html("<p>Question " + questionNumber + "/" + totalQuestions + "<p>")
             getQuestion();
         } else {
             $("#endQuiz").show();

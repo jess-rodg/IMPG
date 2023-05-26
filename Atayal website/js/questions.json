@@ -21,7 +21,7 @@
         },
         {
             "number": 2,
-            "text": "What is the main material used in Atayal clothing?",
+            "text": "What is the main material used to make Atayal clothing?",
             "answers": [
                 {
                     "text": "Cotton",
@@ -147,7 +147,7 @@
                 },
                 {
                     "text": "Pork",
-                    "correct": true
+                    "correct": false
                 }
             ],
             "incorrectSentence": "Atayal people cannot eat bear"
@@ -173,7 +173,7 @@
         },
         {
             "number": 10,
-            "text": "What is wedding gift do Atayal males traditionally give to their bride?",
+            "text": "What wedding gift do Atayal males traditionally give to their bride?",
             "answers": [
                 {
                     "text": "Headband ",
@@ -230,6 +230,25 @@
         },
         {
             "number": 13,
+            "text": "How do male Atayals earn their face tattoos?",
+            "answers": [
+                {
+                    "text": "Hunting",
+                    "correct": true
+                },
+                {
+                    "text": "Farming",
+                    "correct": false
+                },
+                {
+                    "text": "Construction",
+                    "correct": false
+                }
+            ],
+            "incorrectSentence": "Atayal males earn their facial tattoos when they are part of a hunt"
+        },
+        {
+            "number": 14,
             "text": "Which material is not used in the construction of atayal homes and buildings?",
             "answers": [
                 {
@@ -246,6 +265,27 @@
                 }
             ],
             "incorrectSentence": "Straw isn't used in the construction of atayal buildings"
+        },
+        {
+            "number": 15,
+            "text": "What is the Atayal Ancestor Spirit Ritual called?",
+            "answers": [
+                {
+                    "text": "Maho",
+                    "correct": true
+                },
+               
+                {
+                    "text": "Smyatu",
+                    "correct": false
+                },
+               
+                {
+                    "text": "Tmmyan",
+                    "correct": false
+                }
+            ],
+            "incorrectSentence": "Maho is the Ancestor spirit ritual where Atayal ancestors are celebrated"
         }
         
     ]
