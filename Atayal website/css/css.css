@@ -3,12 +3,13 @@ body {
   color: #333;
   margin:0px;
 }
+
 .main{
   background-color:antiquewhite;
   border:10px solid black;
 }
 .body-kitchen{
-  font-family: 'Times New Roman', Times, serif;
+  font-family:'Times New Roman', Times, serif;
   font-size: 1.4em;
 }
 .container{
@@ -140,7 +141,6 @@ a:hover {
   color: #fff;
   text-align: right;
   line-height: 80px;
-  font-size: 1em;
 }
 #leftArr{
   display: flex;
@@ -311,9 +311,8 @@ a:hover {
 }
 /*living room*/
 .body-living{
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 1.4em;
-
+  font-family:'Times New Roman', Times, serif;
+  font-size: 22.4px;
 }
 .main-living{
   background-image: url("backLiv.png");
@@ -572,7 +571,8 @@ button:hover{
 
 .footer a{
   color:white;
-  font-size: 1.5em;
+  font-size: 24px;
+  font-weight: 200;
 }
 .footer a:hover{
   color:#EABB42;

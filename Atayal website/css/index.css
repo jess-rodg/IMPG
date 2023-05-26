@@ -9,6 +9,7 @@
     grid-template-rows: auto auto auto auto auto auto auto auto;
     gap: 0px 0px;
     grid-auto-flow: row;
+    background-color:antiquewhite;
 }
 
 nav {
@@ -69,11 +70,13 @@ nav {
 .pageLinks {
     grid-area: 4 / 1 / 5 / 13;
     margin-top: 3%;
-    background-color: #333;
+    background-color:#934D3C;
     padding-top: 8%;
     padding-bottom: 6%;
     margin-left: -1%;
     margin-right: -1%;
+    border-top: 10px solid #6A1D2B;
+    border-bottom: 10px solid #6A1D2B;
 }
 
 .btn1 {
@@ -115,24 +118,34 @@ nav {
 }
 
 .video{
+    padding:2%;
     grid-area: 5 / 7 / 6 / 13;
     margin: auto;
     margin-top: 10%;
+    height:480px;
+    width:854px;
+    background-image:url("backDeco.png") ;
+    border-radius: 5%;
 }
 
 .video h2{
     font-size: 2rem;
 }
+h2#elders{
+    position: relative;
+    left:35%;
+}
 
 .gameLinks {
     grid-area: 6 / 1 / 7 / 13;
     margin-top: 3%;
-    background-color: #333;
+    background-color:#934D3C;
     padding-top: 8%;
     padding-bottom: 6%;
     margin-left: -1%;
     margin-right: -1%;
-
+    border-top: 10px solid #6A1D2B;
+    border-bottom: 10px solid #6A1D2B;
 }
 
 .gameLinks img {
