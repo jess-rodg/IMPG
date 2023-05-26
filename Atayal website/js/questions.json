@@ -36,7 +36,7 @@
                     "correct": true
                 }
             ],
-            "incorrectSentence": "Although cotton and wool have been used for Atayal clothing since the 20th century, the most common material used is hemp"
+            "incorrectSentence": "Cotton and Wool have only been used since the 20th century"
         },
         {
             "number": 3,
@@ -55,7 +55,7 @@
                     "correct": true
                 }
             ],
-            "incorrectSentence": "Weaving is very important within Atayal culture, and determines a woman's social status and competence"
+            "incorrectSentence": "Weaving is very important within Atayal culture"
         },
         {
             "number": 4,
@@ -74,7 +74,7 @@
                     "correct": true
                 }
             ],
-            "incorrectSentence": "Legend says that diamonds are eyes, and represent protection given by ancesters"
+            "incorrectSentence": "Legend says that diamonds shapes represent protection given by ancestors"
         },
         {
             "number": 5,
@@ -131,7 +131,7 @@
                     "correct": true
                 }
             ],
-            "incorrectSentence": "Ginger, peaches, apples and pears were the crops that Atayal people began growing in the mid 20th-century in order to increase profits"
+            "incorrectSentence": "Ginger, peaches, apples and pears were grown in order to increase profits"
         },
         {
             "number": 8,
@@ -154,7 +154,7 @@
         },
         {
             "number": 9,
-            "text": "How long does meat last when preserved by using the tmmyan method?",
+            "text": "How long does the tmmyan method preserve meat for?",
             "answers": [
                 {
                     "text": "4 months",
@@ -188,7 +188,7 @@
                     "correct": true
                 }
             ],
-            "incorrectSentence": "The shell bead shirt is the traditional wedding gift from a groom to the bride in Atayal culture"
+            "incorrectSentence": "The shell bead shirt is the traditional wedding gift"
         },
         {
             "number": 11,
@@ -226,7 +226,7 @@
                     "correct": false
                 }
             ],
-            "incorrectSentence": "Atayal females earn their facial tattoos when they display that they are skilled weavers"
+            "incorrectSentence": "Atayal females earn their facial tattoos through weaving"
         },
         {
             "number": 13,

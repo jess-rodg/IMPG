@@ -3,9 +3,9 @@ $(document).ready(function () {
     var question;
     var correctTally = 0;
     var questionNumber = 1;
-    var totalQuestions = 15;
+    var totalQuestions;
 
-    $("#questionNumber").html("<p>Question " + questionNumber + "/" + totalQuestions + "<p>")
+    
     $("#nextQuestionButton").hide();
     $("#result").hide();
     $("#endQuiz").hide();
@@ -16,6 +16,7 @@ $(document).ready(function () {
         questions = data;
         totalQuestions = questions.questions.length;
         getQuestion();
+        $("#questionNumber").html("<p>Question " + questionNumber + "/" + totalQuestions + "<p>")
 
     }).fail(function () {
         console.log("error getting questions");
@@ -24,18 +25,18 @@ $(document).ready(function () {
     $("#answerButton1").on("click", function () {
 
         optionClicked(0)
-        $("#answerButton1").css({"border-style": "solid", "border-width": "10px" ,"border-color": "black"})
+        $("#answerButton1").css({"background-color": "#333"})
     });
 
     $("#answerButton2").on("click", function () {
 
         optionClicked(1)
-        $("#answerButton2").css({"border-style": "solid", "border-width": "10px" ,"border-color": "black"})
+        $("#answerButton2").css({"background-color": "#333"})
     });
 
     $("#answerButton3").on("click", function () {
         optionClicked(2)
-        $("#answerButton3").css({"border-style": "solid", "border-width": "10px", "border-color": "black"})
+        $("#answerButton3").css({"background-color": "#333"})
     });
 
 
@@ -48,16 +49,15 @@ $(document).ready(function () {
 
         if (question.answers[option].correct === true) {
             $("#resultPlaceholder").html("<h2>Correct!</h2>");
-         
+         $("#incorrectSentencePlaceholder").hide();
             correctTally = correctTally + 1;
         } else {
             $("#resultPlaceholder").html("<h2>Incorrect!</h2>");
-        
-            $("#incorrectSentencePlaceholder").html("<p>" + (question.incorrectSentence) + "</p>");
+            $("#incorrectSentencePlaceholder").show();
+            
         }
         $("#result").show();
         $("#resultPlaceholder").show();
-        $("#incorrectSentencePlaceholder").show();
     }
 
 
@@ -73,6 +73,7 @@ $(document).ready(function () {
             $("#answerButton1").prop("disabled", false);
             $("#answerButton2").prop("disabled", false);
             $("#answerButton3").prop("disabled", false);
+            $("#incorrectSentencePlaceholder").html("<p>" + (question.incorrectSentence) + "</p>");
         }
 
     }
@@ -86,13 +87,11 @@ $(document).ready(function () {
         $("#resultPlaceholder").hide();
         $("#result").hide();
         $("#incorrectSentencePlaceholder").hide();
-        $("#answerButton1").css("border-style", "none")
-        $("#answerButton2").css("border-style", "none")
-        $("#answerButton3").css("border-style", "none")
-        if (questions.questions.length > 0) {
-            $("#questionNumber").html("<p>Question " + questionNumber + "/" + totalQuestions + "<p>")
-            getQuestion();
-        } else {
+        $("#answerButton1").css({"background-color": "#604C2A"})
+        $("#answerButton2").css({"background-color": "#604C2A"})
+        $("#answerButton3").css({"background-color": "#604C2A"})
+        console.log(questions.questions.length)
+        if (questions.questions.length == 1) {
             $("#endQuiz").show();
             $("#score").show();
             $("#score").html("<p> You scored " + correctTally + "/" + totalQuestions + ", well done!</p>");
@@ -100,6 +99,16 @@ $(document).ready(function () {
             $("#answerButton1").hide();
             $("#answerButton2").hide();
             $("#answerButton3").hide();
+            $("#questionNumber").hide();
+            if(correctTally > 8){
+                $("#score").html("<p> You scored " + correctTally + "/" + totalQuestions + ", well done!</p>");
+            } else{
+                $("#score").html("<p> You scored " + correctTally + "/" + totalQuestions + ", better luck next time!</p>");
+            }
+        } else {
+           
+            $("#questionNumber").html("<p>Question " + questionNumber + "/" + totalQuestions + "<p>")
+            getQuestion();
         }
     })
 

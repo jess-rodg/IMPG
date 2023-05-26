@@ -76,6 +76,8 @@ nav {
   padding-right: 10%;
   min-width: 100px;
   min-height: 300px;
+  max-width: 680px;
+  max-height: 436px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -120,9 +122,9 @@ nav {
 
 #result {
   display: grid;
-  grid-area: 5 / 1 / 6 / 13;
+  grid-area: 5 / 1 / 6 / 10;
   background-color: #333;
-  margin-left: 5%;
+  margin-left: 8%;
   margin-right: 5%;
   border-radius: 50px;
   max-height: 175px;
@@ -130,20 +132,20 @@ nav {
 
 #resultPlaceholder {
   font-size: 2.5rem;
-  grid-area: 5 / 1 / 6 / 4;
+  grid-area: 5 / 1 / 6 / 3;
   color: white;
   display: flex;
   align-items: left;
   justify-content: start;
-margin-left: 15%;
+margin-left: 8%;
 }
 
 #incorrectSentencePlaceholder {
   font-size: 2rem;
   text-align: left;
-  grid-area: 5 / 4 / 6 / 13;
+  grid-area: 5 / 3 / 6 / 10;
   color: white;
-  margin-left: 5%;
+  margin-left: 2%;
   margin-right: 2%;
   display: flex;
   align-items: center;
@@ -152,24 +154,18 @@ margin-left: 15%;
 
 
 #nextQuestionButton {
-  grid-area: 6 / 10 / 7 / 13;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-margin-top: 10%;
-
+  grid-area: 5 / 10 / 6 / 13;
+ 
 }
 
 #nextQuestionButton button {
-  font-size: 2rem;
-  padding-top: 3%;
-  padding-bottom: 3%;
-  padding-left: 5%;
-  padding-right: 5%;
+  font-size: 2.5rem;
+ width: 300px;
+ height: 150px;
   border-style: none;
-  border-radius: 30px;
-  margin-top: -8%;
-  margin-bottom: 10%;
+  border-radius: 50px;
+  margin-top: 3%;
+  margin-left: 3%;
   color: white;
   background-color: #333;
 }
@@ -193,7 +189,6 @@ footer {
 
 #endQuiz {
   grid-area: 3 / 1 / 6 / 13;
-  margin-top: -35%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -205,8 +200,8 @@ footer {
 }
 
 #score {
-  font-size: 2rem;
-  margin-left: 5%;
+  font-size: 3rem;
+  margin-left: 3%;
 }
 
 
@@ -224,4 +219,14 @@ footer a:hover {
 
 a {
   text-decoration: none;
+}
+
+.websiteName {
+    float: right;
+    color: white;
+    margin-top: 1.6%;
+    font-size: 2em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-right: 3%;
+    letter-spacing: 15px;
 }
