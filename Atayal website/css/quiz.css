@@ -37,13 +37,13 @@ nav {
 }
 
 #borderLeft {
-  grid-area: 2 / 1 / 6 / 2;
+  grid-area: 2 / 1 / 7 / 2;
   margin-top: 6%;
   margin-left: -5%;
 }
 
 #borderRight {
-  grid-area: 2 / 12 / 6 / 13;
+  grid-area: 2 / 12 / 7 / 13;
   display: flex;
   justify-content: right;
   align-items: center;
