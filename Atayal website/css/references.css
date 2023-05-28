@@ -12,7 +12,12 @@ body{
     gap: 0px 0px;
     grid-auto-flow: row;
 }
-
+a{
+    font-size: 1.4em;
+}
+a:hover{
+    color: rgb(221, 182, 11);
+}
 nav {
     grid-area: 1 / 1 / 2 / 13;
 }
@@ -42,7 +47,7 @@ nav {
 }
 
 .heading{
-    grid-area: 2 / 1 / 3 / 13;
+   grid-area: 2 / 1 / 3 / 13;
    margin-left: 5%;
    margin-top: 2%;
    font-size: 1.5rem;
@@ -58,33 +63,20 @@ nav {
 }
 
 .clothes-links{
-    grid-area: 4 / 1 / 5 / 13;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: -2%;
+    grid-area: 4 / 2/ 5 / 13;
 }
 
 .food-links{
-    grid-area: 5 / 1 / 6 / 13;
-    margin-top: -2%;
-    margin-left: 5%;
-    margin-right: 5%;
+    grid-area: 4 / 7/ 5 / 13;
 }
 
 .architectures-links{
-    grid-area: 6 / 1 / 7 / 13;
-    margin-top: -2%;
-    margin-left: 5%;
-    margin-right: 5%;
+    grid-area: 5 / 2/ 6 / 13;
 }
 
 .tradtions-links{
-    grid-area: 7 / 1 / 8 / 13;
-    margin-top: -2%;
-    margin-left: 5%;
-    margin-right: 5%;
+    grid-area: 5 / 7/ 6 / 13;
 }
-
 
 footer {
     grid-area: 8 / 1 / 9 / 13;
