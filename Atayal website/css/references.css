@@ -71,11 +71,11 @@ nav {
 }
 
 .architectures-links{
-    grid-area: 5 / 2/ 6 / 13;
+    grid-area: 5 / 2/ 6 / 8;
 }
 
 .tradtions-links{
-    grid-area: 5 / 7/ 6 / 13;
+    grid-area: 5 / 7/ 7/ 13;
 }
 
 footer {
