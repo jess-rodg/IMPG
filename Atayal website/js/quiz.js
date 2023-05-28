@@ -90,7 +90,7 @@ $(document).ready(function () {
         $("#answerButton1").css({"background-color": "#604C2A"})
         $("#answerButton2").css({"background-color": "#604C2A"})
         $("#answerButton3").css({"background-color": "#604C2A"})
-        console.log(questions.questions.length)
+      
         if (questions.questions.length == 1) {
             $("#endQuiz").show();
             $("#score").show();
