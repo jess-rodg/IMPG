@@ -62,6 +62,10 @@ nav {
     font-size: 1.8rem;
 }
 
+h2{
+    font-weight: bold;
+}
+
 .clothes-links{
     grid-area: 4 / 2/ 5 / 13;
 }
