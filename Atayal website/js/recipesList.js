@@ -174,8 +174,7 @@ const allIngredients = [
     new pork(0)
 ];
 
-
-const bbrice = new Recipe('Zhu Zhu',
+const bbrice = new Recipe('Rice in Bambootube',
     [
         new beans(30),
         new carrot(30),
