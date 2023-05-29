@@ -46,7 +46,8 @@ $(document).ready(function () {
 
         $("#image4").on("click", function () {
 
-                $("#imagePlaceholder").html("<img src='Images/watchtower.png'>");
+                $("#imagePlaceholder").html("<img src='Images/watchtower.jpeg'>");
+                $("#imagePlaceholder").css("width", "400px")
                 $("#headingPlaceholder").html("<h2>Watchtower</h2>");
                 $("#textPlaceholder").html("<p>Another building seen in all atayal villages is the watchtower. The watchtower is an elevated building which allows the tribe to look out across the environment. Originally this was used as a defence tool, but later became a place for gatherings, meetings and recreational activities.</p>");
                 $("#image4").css({ "border-style": "solid", "border-width": "10px", "border-color": "black" })

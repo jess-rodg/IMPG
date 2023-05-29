@@ -50,7 +50,7 @@ $(document).ready(function () {
     $("#image4").on("click", function () {
 
         $("#imagePlaceholder").html("<img src='Images/zhuzhu.jpeg'>");
-        $("#headingPlaceholder").html("<h2>Zhu Zhu</h2>");
+        $("#headingPlaceholder").html("<h2>Bamboo tube rice</h2>");
         $("#textPlaceholder").html("<p>Zhu Zhu is a traditional cooking method used by Atayal people, where rice is cooked inside bamboo tubes. After the rice has been soaked in water for eight hours, it is stuffed inside the tubes, which are then sealed with ginger leaves. After the bamboo tubes have been steamed or boiled, the rice is very fragrant and has the scent of the ginger leaves.</p>");
         $("#image4").css({ "border-style": "solid", "border-width": "10px", "border-color": "black" })
         $("#image1").css("border-style", "none")
